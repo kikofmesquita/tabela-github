@@ -1,0 +1,711 @@
+:root {
+    --fifa-blue: #001C58;
+    --fifa-gold: #DEAA28;
+    --fifa-purple: #7030A0;
+    --group-a: #0094FF;
+    --group-b: #32CD32;
+    --group-c: #FF6B6B;
+    --group-d: #FFD700;
+    --group-e: #FF8C00;
+    --group-f: #9370DB;
+    --group-g: #20B2AA;
+    --group-h: #FF1493;
+    --match-win: #32CD32;
+    --match-draw: #AAAAAA;
+    --match-loss: #FF6B6B;
+    --background: #F5F5F5;
+    --surface: #FFFFFF;
+    --text-primary: #212121;
+    --text-secondary: #757575;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+/* Seletor de idiomas removido */
+
+.phone-container {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.phone-frame {
+    background-color: var(--background);
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: none;
+    position: relative;
+    min-height: 800px;
+    max-height: 150vh;
+    overflow-y: auto;
+}
+
+/* Status bar foi removida */
+
+.app-content {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.screen {
+    display: none;
+    min-height: 600px;
+}
+
+.screen.active {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.top-bar {
+    background-color: var(--fifa-blue);
+    color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.top-bar h2 {
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.back-button {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--fifa-blue);
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0px;
+    border-top: none;
+    z-index:999;
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.nav-item.active {
+    color: white;
+}
+
+.nav-item .material-icons {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+/* Home Screen */
+.logo-banner {
+    background-color: var(--fifa-blue);
+    color: white;
+    padding: 30px 20px 20px 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo-content h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.logo-content h2 {
+    color: var(--fifa-gold);
+    font-size: 18px;
+}
+
+.card {
+    background-color: var(--surface);
+    border-radius: 0;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: none;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.tournament-info h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: var(--text-primary);
+}
+
+.tournament-info p {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 24px 0 16px;
+    color: var(--text-primary);
+    font-size: 18px;
+}
+
+.navigation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 0 16px 20px;
+}
+
+.nav-card {
+    background-color: var(--fifa-blue);
+    color: white;
+    border-radius: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nav-card:hover {
+    background-color: var(--fifa-gold);
+}
+
+.nav-card .material-icons {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Teams Screen */
+.teams-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 16px;
+    margin-bottom: 100px;
+}
+
+.team-card {
+    background-color: var(--surface);
+    border-radius: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.team-card:hover {
+    background-color: #f9f9f9;
+}
+
+.group-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.team-card .group-badge {
+    background-color: var(--fifa-blue);
+}
+
+.team-card .group-badge:not([class*='custom-']) {
+    background-color: var(--fifa-blue);
+}
+
+.team-card .group-badge[class*='A'] {
+    background-color: var(--group-a);
+}
+
+.team-card .group-badge[class*='B'] {
+    background-color: var(--group-b);
+}
+
+.team-card .group-badge[class*='C'] {
+    background-color: var(--group-c);
+}
+
+.team-card .group-badge[class*='D'] {
+    background-color: var(--group-d);
+}
+
+.team-card .group-badge[class*='E'] {
+    background-color: var(--group-e);
+}
+
+.team-card .group-badge[class*='F'] {
+    background-color: var(--group-f);
+}
+
+.team-card .group-badge[class*='G'] {
+    background-color: var(--group-g);
+}
+
+.team-card .group-badge[class*='H'] {
+    background-color: var(--group-h);
+}
+
+.team-logo {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.team-name {
+    font-weight: 500;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.team-country {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+/* Team Details Screen */
+.team-details-content {
+    padding: 0 16px 16px;
+}
+
+.team-banner {
+    background-color: var(--surface);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.large-team-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.large-team-logo img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.group-badge-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.group-badge-large {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    background-color: var(--group-a);
+}
+
+.info-card h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.info-label {
+    color: var(--text-secondary);
+}
+
+.info-value {
+    font-weight: 500;
+}
+
+.match-list {
+    margin-top: 8px;
+}
+
+.match-card {
+    background-color: var(--surface);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.match-stage {
+    font-size: 12px;
+    color: var(--fifa-blue);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.match-teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.match-team {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.match-score {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-logo-small {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.team-name-small {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.match-details {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.match-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.match-detail .material-icons {
+    font-size: 16px;
+    margin-right: 4px;
+    color: var(--fifa-blue);
+}
+
+/* Groups Screen */
+.groups-content {
+    padding: 16px;
+}
+
+.tournament-format {
+    margin-bottom: 24px;
+}
+
+.tournament-format h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.tournament-format p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.group-title {
+    font-size: 18px;
+    margin: 16px 0 8px;
+    font-weight: 500;
+}
+
+.group-A {
+    color: var(--group-a);
+}
+
+.group-B {
+    color: var(--group-b);
+}
+
+.group-C {
+    color: var(--group-c);
+}
+
+.group-D {
+    color: var(--group-d);
+}
+
+.group-E {
+    color: var(--group-e);
+}
+
+.group-F {
+    color: var(--group-f);
+}
+
+.group-G {
+    color: var(--group-g);
+}
+
+.group-H {
+    color: var(--group-h);
+}
+
+.group-table {
+    background-color: var(--surface);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.table-header {
+    display: flex;
+    background-color: var(--fifa-blue);
+    color: white;
+    font-weight: 500;
+    padding: 8px 4px;
+}
+
+.table-row {
+    display: flex;
+    padding: 8px 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-row.qualified {
+    background-color: rgba(0, 148, 255, 0.1);
+}
+
+.team-cell {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.stat-cell {
+    width: 6.25%;
+    text-align: center;
+}
+
+.position {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.team-logo-tiny {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* Schedule Screen */
+.stage-tabs {
+    display: flex;
+    overflow-x: auto;
+    background-color: var(--fifa-blue);
+    padding: 0 8px;
+    white-space: nowrap;
+}
+
+.stage-tab {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 12px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.stage-tab.active {
+    color: white;
+    border-bottom: 2px solid var(--fifa-gold);
+}
+
+.schedule-content, .results-content {
+    padding: 16px;
+}
+
+.date-header {
+    font-weight: 500;
+    margin: 16px 0 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--fifa-blue);
+}
+
+.load-more-container {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.load-more-button {
+    background-color: var(--fifa-blue);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.load-more-button:hover {
+    background-color: var(--fifa-gold);
+}
+
+/* Results Screen */
+.match-card.completed .match-score {
+    font-weight: bold;
+}
+
+.match-team.winner {
+    font-weight: bold;
+    color: var(--match-win);
+}
+
+.future-result .match-score {
+    color: var(--fifa-blue);
+    font-style: italic;
+}
+
+.tournament-message {
+    background-color: var(--surface);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tournament-message h3 {
+    margin-bottom: 12px;
+    color: var(--fifa-blue);
+}
+
+.tournament-message p {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+}
+
+.tournament-date {
+    font-weight: 500;
+    color: var(--fifa-gold) !important;
+}
+
+/* Promotional Section Styles */
+.promo-section {
+    /*margin: 20px 0;
+    padding: 0 15px;*/
+    background: linear-gradient(135deg, #1a237e, #0d47a1);
+}
+
+.promo-card {
+    background: linear-gradient(135deg, #1a237e, #0d47a1);
+    border-radius: px;
+    padding: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.promo-content {
+    text-align: center;
+}
+
+.promo-content h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.promo-content p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+ .promo-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6a00, #ff9500);
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease-in-out;
+      position: relative;
+      width: 100%;
+    }
+
+    .promo-button:hover {
+      background: linear-gradient(135deg, #e55b00, #ff7d00);
+      transform: scale(1.05);
+    }
+
+    .promo-button::after {
+      content: "🔥 Qtd Limitadas – Só Hoje!";
+      display: block;
+      font-size: 0.8rem;
+      margin-top: 5px;
+      color: #fffbe7;
+      text-align: center;
+    }
+  
