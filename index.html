@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,31 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <style>
-     @keyframes qtdPessoas {
-     0% { opacity: 1; }
-     100% { opacity: 0; }
- }
-.qtdPessoas {
-   -webkit-animation: qtdPessoas .50s linear infinite;
-   -moz-animation: qtdPessoas .50s linear infinite;
-   -ms-animation: qtdPessoas .50s linear infinite;
-   -o-animation: qtdPessoas .50s linear infinite;
-   animation: qtdPessoas .50s linear infinite;
-}
-</style>
+        @keyframes qtdPessoas {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .qtdPessoas {
+            -webkit-animation: qtdPessoas .50s linear infinite;
+            -moz-animation: qtdPessoas .50s linear infinite;
+            -ms-animation: qtdPessoas .50s linear infinite;
+            -o-animation: qtdPessoas .50s linear infinite;
+            animation: qtdPessoas .50s linear infinite;
+        }
+    </style>
 </head>
+
 <body>
     <div class="phone-container">
         <div class="phone-frame">
-<!-- Status bar removida conforme solicitado -->
-            
+            <!-- Status bar removida conforme solicitado -->
+
             <div class="app-content">
                 <div id="home-screen" class="screen active">
                     <div class="logo-banner">
@@ -36,16 +44,16 @@
                             <h2>USA 2025</h2>
                         </div>
                     </div>
-                    
+
                     <div class="card tournament-info">
                         <h3 data-i18n="tournament_info">Informações do Torneio</h3>
                         <p data-i18n="dates">Datas: 14 de junho - 13 de julho de 2025</p>
                         <p data-i18n="location">Local: Estados Unidos</p>
                         <p data-i18n="teams_count">Times: 32 clubes de 6 confederações</p>
                     </div>
-                    
+
                     <h3 class="section-title" data-i18n="explore">Explore o Torneio</h3>
-                    
+
 
                     <div class="navigation-grid">
                         <div class="nav-card" onclick="showScreen('teams-screen')">
@@ -66,79 +74,84 @@
                         </div>
                     </div>
 
-                      <h3 class="section-title" data-i18n="promo">Promoções</h3>
-                    <div class="promo-section" onclick='javascript:redirecionar("https://ev.braip.com/ref?pv=prodno4x&af=afi5jq7qg");' >
-                          <img
-                                    loading="lazy" srcset=""
-                                    src="images/gota_himalaia.png"
-                                    class="h-100 absolute right-0 top-0"
-                                    width="100%" height="auto"
-                                    alt="">
+                    <h3 class="section-title" data-i18n="promo">Promoções</h3>
+                    <div class="promo-section"
+                        onclick='javascript:redirecionar("https://accounts.binance.com/register?ref=I3ZRTX8Y");'>
+                        <img loading="lazy" srcset="" src="images/banner_binance.png"
+                            class="h-100 absolute right-0 top-0" width="100%" height="auto" alt="">
+
+                    </div>
+
+                    <br />
+                    <div class="promo-section"
+                        onclick='javascript:redirecionar("https://ev.braip.com/ref?pv=prodno4x&af=afi5jq7qg");'>
+                        <img loading="lazy" srcset="" src="images/gota_himalaia.png"
+                            class="h-100 absolute right-0 top-0" width="100%" height="auto" alt="">
                         <div class="promo-card">
                             <div class="promo-content">
                                 <h4>Gota do Himalaia - Estimulante Sexual Em Gotas!</h4>
                                 <p>✅ Mais de 9.598 homens já aprovaram!</p>
                                 <p class="qtdPessoas">🔥 85 pessoas comprando agora!🔥🔥</p>
-                                <a href="#"  class="promo-button" target="_blank">🚀 QUERO MINHA OFERTA AGORA</a>
+                                <a href="#" class="promo-button" target="_blank">🚀 QUERO MINHA OFERTA AGORA</a>
                             </div>
                         </div>
                     </div>
 
-                    <br/>
+                    <br />
 
-                    <div class="promo-section" onclick='javascript:redirecionar("https://ev.braip.com/ref?pv=pro4rxm7&af=afin7evno");'>
-                          <img
-                                    loading="lazy" srcset=""
-                                    src="images/queda.png"
-                                    class="h-100 absolute right-0 top-0"
-                                    width="100%" height="auto"
-                                    alt="">
+                    <div class="promo-section"
+                        onclick='javascript:redirecionar("https://ev.braip.com/ref?pv=pro4rxm7&af=afin7evno");'>
+                        <img loading="lazy" srcset="" src="images/queda.png" class="h-100 absolute right-0 top-0"
+                            width="100%" height="auto" alt="">
                         <div class="promo-card">
                             <div class="promo-content">
                                 <h4>100 queda - TRINOXIDIL AMERICANO!!</h4>
                                 <p>✅ Mais de 6.351 homens já aprovaram!</p>
                                 <p class="qtdPessoas">🔥 25 pessoas comprando agora!🔥🔥</p>
-                               <a href="#"  class="promo-button" target="_blank">🚀 QUERO MINHA OFERTA AGORA</a>
+                                <a href="#" class="promo-button" target="_blank">🚀 QUERO MINHA OFERTA AGORA</a>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                
+
                 <div id="teams-screen" class="screen">
                     <div class="top-bar">
                         <h2>Times</h2>
                     </div>
-                    
+
                     <div class="teams-grid">
                         <!-- GRUPO A -->
                         <div class="team-card" onclick="showTeamDetails('alahly')">
                             <div class="group-badge">A</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg" alt="Al Ahly">
+                                <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg"
+                                    alt="Al Ahly">
                             </div>
                             <div class="team-name">Al Ahly</div>
                             <div class="team-country">Egito</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('intermiami')">
                             <div class="group-badge">A</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg" alt="Inter Miami">
+                                <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg"
+                                    alt="Inter Miami">
                             </div>
                             <div class="team-name">Inter Miami</div>
                             <div class="team-country">EUA</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('palmeiras')">
                             <div class="group-badge">A</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg" alt="Palmeiras">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+                                    alt="Palmeiras">
                             </div>
                             <div class="team-name">Palmeiras</div>
                             <div class="team-country">Brasil</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('porto')">
                             <div class="group-badge">A</div>
                             <div class="team-logo">
@@ -147,82 +160,90 @@
                             <div class="team-name">Porto</div>
                             <div class="team-country">Portugal</div>
                         </div>
-                        
-                        
+
+
                         <!-- GRUPO B -->
                         <div class="team-card" onclick="showTeamDetails('psg')">
                             <div class="group-badge">B</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg"
+                                    alt="PSG">
                             </div>
                             <div class="team-name">Paris Saint-Germain</div>
                             <div class="team-country">França</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('atleticomadrid')">
                             <div class="group-badge">B</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg" alt="Atlético Madrid">
+                                <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg"
+                                    alt="Atlético Madrid">
                             </div>
                             <div class="team-name">Atlético Madrid</div>
                             <div class="team-country">Espanha</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('botafogo')">
                             <div class="group-badge">B</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg" alt="Botafogo">
+                                <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+                                    alt="Botafogo">
                             </div>
                             <div class="team-name">Botafogo</div>
                             <div class="team-country">Brasil</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('sounders')">
                             <div class="group-badge">B</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Seattle_Sounders_FC.svg" alt="Seattle Sounders">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Seattle_Sounders_FC.svg"
+                                    alt="Seattle Sounders">
                             </div>
                             <div class="team-name">Seattle Sounders</div>
                             <div class="team-country">EUA</div>
                         </div>
-                        
+
                         <!-- GRUPO C -->
                         <div class="team-card" onclick="showTeamDetails('bayern')">
                             <div class="group-badge">C</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg" alt="Bayern Munich">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+                                    alt="Bayern Munich">
                             </div>
                             <div class="team-name">Bayern de Munique</div>
                             <div class="team-country">Alemanha</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('auckland')">
                             <div class="group-badge">C</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2023/12/12/Auckland_City.svg" alt="Auckland City">
+                                <img src="https://s.sde.globo.com/media/organizations/2023/12/12/Auckland_City.svg"
+                                    alt="Auckland City">
                             </div>
                             <div class="team-name">Auckland City</div>
                             <div class="team-country">Nova Zelândia</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('benfica')">
                             <div class="group-badge">C</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg" alt="Benfica">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg"
+                                    alt="Benfica">
                             </div>
                             <div class="team-name">Benfica</div>
                             <div class="team-country">Portugal</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('bocajuniors')">
                             <div class="group-badge">C</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2019/02/19/boca-juniors-svg-13083.svg" alt="Boca Juniors">
+                                <img src="https://s.sde.globo.com/media/organizations/2019/02/19/boca-juniors-svg-13083.svg"
+                                    alt="Boca Juniors">
                             </div>
                             <div class="team-name">Boca Juniors</div>
                             <div class="team-country">Argentina</div>
                         </div>
-                        
+
                         <!-- GRUPO D -->
                         <div class="team-card" onclick="showTeamDetails('chelsea')">
                             <div class="group-badge">D</div>
@@ -232,87 +253,95 @@
                             <div class="team-name">Chelsea</div>
                             <div class="team-country">Inglaterra</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('flamengo')">
                             <div class="group-badge">D</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg" alt="Flamengo">
+                                <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+                                    alt="Flamengo">
                             </div>
                             <div class="team-name">Flamengo</div>
                             <div class="team-country">Brasil</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('esperance')">
                             <div class="group-badge">D</div>
                             <div class="team-logo">
-                                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200" alt="Espérance" class="team-logo-tiny">
+                                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200"
+                                    alt="Espérance" class="team-logo-tiny">
                             </div>
                             <div class="team-name">Espérance de Tunis</div>
                             <div class="team-country">Tunísia</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('leon')">
                             <div class="group-badge">D</div>
                             <div class="team-name">Substituto do Club León</div>
                             <div class="team-country">A definir</div>
                         </div>
-                        
+
                         <!-- GRUPO E -->
                         <div class="team-card" onclick="showTeamDetails('river')">
                             <div class="group-badge">E</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg" alt="River Plate">
+                                <img src="https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg"
+                                    alt="River Plate">
                             </div>
                             <div class="team-name">River Plate</div>
                             <div class="team-country">Argentina</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('urawa')">
                             <div class="group-badge">E</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg" alt="Urawa">
+                                <img src="https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg"
+                                    alt="Urawa">
                             </div>
                             <div class="team-name">Urawa Red Diamonds</div>
                             <div class="team-country">Japão</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('monterrey')">
                             <div class="group-badge">E</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png" alt="Monterrey">
+                                <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png"
+                                    alt="Monterrey">
                             </div>
                             <div class="team-name">Monterrey</div>
                             <div class="team-country">México</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('inter')">
                             <div class="group-badge">E</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg" alt="Inter">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg"
+                                    alt="Inter">
                             </div>
                             <div class="team-name">Internazionale</div>
                             <div class="team-country">Itália</div>
                         </div>
-                        
+
                         <!-- GRUPO F -->
                         <div class="team-card" onclick="showTeamDetails('fluminense')">
                             <div class="group-badge">F</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg" alt="Fluminense">
+                                <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+                                    alt="Fluminense">
                             </div>
                             <div class="team-name">Fluminense</div>
                             <div class="team-country">Brasil</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('dortmund')">
                             <div class="group-badge">F</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg" alt="Dortmund">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+                                    alt="Dortmund">
                             </div>
                             <div class="team-name">Borussia Dortmund</div>
                             <div class="team-country">Alemanha</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('ulsan')">
                             <div class="group-badge">F</div>
                             <div class="team-logo">
@@ -321,102 +350,112 @@
                             <div class="team-name">Ulsan HD</div>
                             <div class="team-country">Coreia do Sul</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('sundowns')">
                             <div class="group-badge">F</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png" alt="Sundowns">
+                                <img src="https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png"
+                                    alt="Sundowns">
                             </div>
                             <div class="team-name">Mamelodi Sundowns</div>
                             <div class="team-country">África do Sul</div>
                         </div>
-                        
+
                         <!-- GRUPO G -->
                         <div class="team-card" onclick="showTeamDetails('mancity')">
                             <div class="group-badge">G</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" alt="Manchester City">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+                                    alt="Manchester City">
                             </div>
                             <div class="team-name">Manchester City</div>
                             <div class="team-country">Inglaterra</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('wydad')">
                             <div class="group-badge">G</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png" alt="Wydad AC">
+                                <img src="https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png"
+                                    alt="Wydad AC">
                             </div>
                             <div class="team-name">Wydad AC</div>
                             <div class="team-country">Marrocos</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('alain')">
                             <div class="group-badge">G</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg" alt="Al Ain">
+                                <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg"
+                                    alt="Al Ain">
                             </div>
                             <div class="team-name">Al Ain</div>
                             <div class="team-country">Emirados Árabes</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('juventus')">
                             <div class="group-badge">G</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2018/03/11/juventus.svg" alt="Juventus">
+                                <img src="https://s.sde.globo.com/media/organizations/2018/03/11/juventus.svg"
+                                    alt="Juventus">
                             </div>
                             <div class="team-name">Juventus</div>
                             <div class="team-country">Itália</div>
                         </div>
-                        
+
                         <!-- GRUPO H -->
                         <div class="team-card" onclick="showTeamDetails('realmadrid')">
                             <div class="group-badge">H</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+                                    alt="Real Madrid">
                             </div>
                             <div class="team-name">Real Madrid</div>
                             <div class="team-country">Espanha</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('alhilal')">
                             <div class="group-badge">H</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg" alt="Al Hilal">
+                                <img src="https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg"
+                                    alt="Al Hilal">
                             </div>
                             <div class="team-name">Al Hilal</div>
                             <div class="team-country">Arábia Saudita</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('pachuca')">
                             <div class="group-badge">H</div>
                             <div class="team-logo">
-                                <img src="https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg" alt="Pachuca">
+                                <img src="https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg"
+                                    alt="Pachuca">
                             </div>
                             <div class="team-name">Pachuca</div>
                             <div class="team-country">México</div>
                         </div>
-                        
+
                         <div class="team-card" onclick="showTeamDetails('salzburg')">
                             <div class="group-badge">H</div>
                             <div class="team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg" alt="Salzburg">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg"
+                                    alt="Salzburg">
                             </div>
                             <div class="team-name">FC Salzburg</div>
                             <div class="team-country">Áustria</div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="team-details-screen" class="screen">
                     <div class="top-bar">
                         <span class="material-icons back-button" onclick="backToTeams()">arrow_back</span>
                         <h2 id="detail-team-name">Detalhes do Time</h2>
                     </div>
-                    
+
                     <div class="team-details-content">
                         <div class="team-banner">
                             <div id="detail-team-logo" class="large-team-logo">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Logo do Time">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+                                    alt="Logo do Time">
                             </div>
                             <h3 id="detail-team-name-large">Real Madrid</h3>
                             <p id="detail-team-country">Espanha</p>
@@ -425,7 +464,7 @@
                                 <div id="detail-team-group" class="group-badge-large">A</div>
                             </div>
                         </div>
-                        
+
                         <div class="card info-card">
                             <h3>Informações do Time</h3>
                             <div class="info-row">
@@ -434,7 +473,8 @@
                             </div>
                             <div class="info-row">
                                 <span class="info-label">Classificado Como</span>
-                                <span id="detail-team-qualification" class="info-value">Campeão da Liga dos Campeões da UEFA 2023-24</span>
+                                <span id="detail-team-qualification" class="info-value">Campeão da Liga dos Campeões da
+                                    UEFA 2023-24</span>
                             </div>
                             <div class="info-row">
                                 <span class="info-label">Ranking FIFA</span>
@@ -445,19 +485,21 @@
                                 <span id="detail-team-coach" class="info-value">Carlo Ancelotti</span>
                             </div>
                         </div>
-                        
+
                         <h3>Partidas</h3>
                         <div class="match-list">
                             <div class="match-card">
                                 <div class="match-stage">Fase de Grupos - Grupo A</div>
                                 <div class="match-teams">
                                     <div class="match-team">
-                                        <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg" alt="Al Ahly" class="team-logo-tiny">
+                                        <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg"
+                                            alt="Al Ahly" class="team-logo-tiny">
                                         <span class="team-name-small">Al Ahly</span>
                                     </div>
                                     <div class="match-score" data-i18n="vs">x</div>
                                     <div class="match-team">
-                                        <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg" alt="Inter Miami" class="team-logo-small">
+                                        <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg"
+                                            alt="Inter Miami" class="team-logo-small">
                                         <span class="team-name-small">Inter Miami</span>
                                     </div>
                                 </div>
@@ -475,18 +517,19 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="groups-screen" class="screen">
                     <div class="top-bar">
                         <h2>Grupos</h2>
                     </div>
-                    
+
                     <div class="groups-content">
                         <div class="tournament-format">
                             <h3>Formato do Torneio</h3>
-                            <p>A Copa do Mundo de Clubes da FIFA 2025 conta com 32 times competindo em uma fase de grupos seguida por eliminatórias. Os times são divididos em oito grupos (A-H) de quatro times cada. Os dois melhores times de cada grupo avançam para as oitavas de final, seguidas por quartas de final, semifinais e a final para determinar o campeão mundial.</p>
+                            <p>32 times competindo em uma fase de grupos seguida por eliminatórias. Divididos em 8 grupos (A-H) de 4 times cada. Os 2 melhores times de cada
+                                grupo avançam.</p>
                         </div>
-                        
+
                         <h3 class="group-title group-A">Grupo A</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -500,11 +543,12 @@
                                 <div class="table-cell stat-cell">SG</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg" alt="Al Ahly" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg"
+                                        alt="Al Ahly" class="team-logo-tiny">
                                     <span class="team-name-small">Al Ahly</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -516,11 +560,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg" alt="Inter Miami" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg"
+                                        alt="Inter Miami" class="team-logo-tiny">
                                     <span class="team-name-small">Inter Miami</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -532,11 +577,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg" alt="Palmeiras" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+                                        alt="Palmeiras" class="team-logo-tiny">
                                     <span class="team-name-small">Palmeiras</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -548,11 +594,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg" alt="Porto" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg" alt="Porto"
+                                        class="team-logo-tiny">
                                     <span class="team-name-small">Porto</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -565,7 +612,19 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
+
+                       <!-- Banner da Amazon -->
+                        <div class="amazon-banner">
+                        <h3>🔥 Ofertas do Dia na Amazon!</h3>
+                        <p>Descontos de até <strong>40%</strong> em eletrônicos, casa, moda e muito mais.</p>
+                        <a href="https://amzn.to/4k87DRP" target="_blank" class="amazon-button">
+                            Ver Ofertas Agora
+                        </a>
+                        <p>Aproveite antes que acabe! 🕒</p>
+                        </div>
+
+
                         <h3 class="group-title group-B">Grupo B</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -579,11 +638,12 @@
                                 <div class="table-cell stat-cell">SG</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg"
+                                        alt="PSG" class="team-logo-tiny">
                                     <span class="team-name-small">Paris Saint-Germain</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -595,11 +655,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg" alt="Atlético Madrid" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg"
+                                        alt="Atlético Madrid" class="team-logo-tiny">
                                     <span class="team-name-small">Atlético de Madrid</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -611,11 +672,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg" alt="Botafogo" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+                                        alt="Botafogo" class="team-logo-tiny">
                                     <span class="team-name-small">Botafogo</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -627,11 +689,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Seattle_Sounders_FC.svg" alt="Sounders" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Seattle_Sounders_FC.svg"
+                                        alt="Sounders" class="team-logo-tiny">
                                     <span class="team-name-small">Seattle Sounders</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -644,7 +707,7 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
                         <h3 class="group-title group-C">Grupo C</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -658,11 +721,12 @@
                                 <div class="table-cell stat-cell">SG</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg" alt="Bayern" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+                                        alt="Bayern" class="team-logo-tiny">
                                     <span class="team-name-small">Bayern de Munique</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -674,11 +738,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/12/Auckland_City.svg" alt="Auckland City" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/12/Auckland_City.svg"
+                                        alt="Auckland City" class="team-logo-tiny">
                                     <span class="team-name-small">Auckland City</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -690,11 +755,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg" alt="Benfica" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg"
+                                        alt="Benfica" class="team-logo-tiny">
                                     <span class="team-name-small">Benfica</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -706,11 +772,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/19/boca-juniors-svg-13083.svg" alt="Boca Juniors" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/19/boca-juniors-svg-13083.svg"
+                                        alt="Boca Juniors" class="team-logo-tiny">
                                     <span class="team-name-small">Boca Juniors</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -723,7 +790,7 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
                         <h3 class="group-title group-D">Grupo D</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -737,11 +804,12 @@
                                 <div class="table-cell stat-cell">SG</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Chelsea" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg"
+                                        alt="Chelsea" class="team-logo-tiny">
                                     <span class="team-name-small">Chelsea</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -753,11 +821,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg" alt="Flamengo" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+                                        alt="Flamengo" class="team-logo-tiny">
                                     <span class="team-name-small">Flamengo</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -769,11 +838,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200" alt="Espérance" class="team-logo-tiny">
+                                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200"
+                                        alt="Espérance" class="team-logo-tiny">
                                     <span class="team-name-small">Espérance de Tunis</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -785,7 +855,7 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
@@ -801,7 +871,7 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
                         <h3 class="group-title group-E">Grupo E</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -815,11 +885,12 @@
                                 <div class="table-cell stat-cell">GD</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg" alt="River Plate" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg"
+                                        alt="River Plate" class="team-logo-tiny">
                                     <span class="team-name-small">River Plate</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -831,11 +902,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg" alt="Urawa" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg"
+                                        alt="Urawa" class="team-logo-tiny">
                                     <span class="team-name-small">Urawa Red Diamonds</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -847,11 +919,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png" alt="Monterrey" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png"
+                                        alt="Monterrey" class="team-logo-tiny">
                                     <span class="team-name-small">Monterrey</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -863,11 +936,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg" alt="Inter" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg"
+                                        alt="Inter" class="team-logo-tiny">
                                     <span class="team-name-small">Internazionale</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -880,7 +954,7 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
                         <h3 class="group-title group-F">Grupo F</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -894,11 +968,12 @@
                                 <div class="table-cell stat-cell">GD</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg" alt="Fluminense" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+                                        alt="Fluminense" class="team-logo-tiny">
                                     <span class="team-name-small">Fluminense</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -910,11 +985,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg" alt="Dortmund" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+                                        alt="Dortmund" class="team-logo-tiny">
                                     <span class="team-name-small">Borussia Dortmund</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -926,11 +1002,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg" alt="Ulsan" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg"
+                                        alt="Ulsan" class="team-logo-tiny">
                                     <span class="team-name-small">Ulsan HD</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -942,11 +1019,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png" alt="Sundowns" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png"
+                                        alt="Sundowns" class="team-logo-tiny">
                                     <span class="team-name-small">Mamelodi Sundowns</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -959,7 +1037,7 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
                         <h3 class="group-title group-G">Grupo G</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -973,11 +1051,12 @@
                                 <div class="table-cell stat-cell">GD</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" alt="Man City" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+                                        alt="Man City" class="team-logo-tiny">
                                     <span class="team-name-small">Manchester City</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -989,11 +1068,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png" alt="Wydad" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png"
+                                        alt="Wydad" class="team-logo-tiny">
                                     <span class="team-name-small">Wydad AC</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1005,11 +1085,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg" alt="Al Ain" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg"
+                                        alt="Al Ain" class="team-logo-tiny">
                                     <span class="team-name-small">Al Ain</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1021,11 +1102,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg" alt="Juventus" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg"
+                                        alt="Juventus" class="team-logo-tiny">
                                     <span class="team-name-small">Juventus</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1038,7 +1120,7 @@
                                 <div class="table-cell stat-cell">0</div>
                             </div>
                         </div>
-                        
+
                         <h3 class="group-title group-H">Grupo H</h3>
                         <div class="group-table">
                             <div class="table-header">
@@ -1052,11 +1134,12 @@
                                 <div class="table-cell stat-cell">GD</div>
                                 <div class="table-cell stat-cell">Pts</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">1</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+                                        alt="Real Madrid" class="team-logo-tiny">
                                     <span class="team-name-small">Real Madrid</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1068,11 +1151,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row qualified">
                                 <div class="table-cell team-cell">
                                     <span class="position">2</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg" alt="Al Hilal" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg"
+                                        alt="Al Hilal" class="team-logo-tiny">
                                     <span class="team-name-small">Al Hilal</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1084,11 +1168,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">3</span>
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg" alt="Pachuca" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg"
+                                        alt="Pachuca" class="team-logo-tiny">
                                     <span class="team-name-small">Pachuca</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1100,11 +1185,12 @@
                                 <div class="table-cell stat-cell">0</div>
                                 <div class="table-cell stat-cell">0</div>
                             </div>
-                            
+
                             <div class="table-row">
                                 <div class="table-cell team-cell">
                                     <span class="position">4</span>
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg" alt="Salzburg" class="team-logo-tiny">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg"
+                                        alt="Salzburg" class="team-logo-tiny">
                                     <span class="team-name-small">FC Salzburg</span>
                                 </div>
                                 <div class="table-cell stat-cell">0</div>
@@ -1119,12 +1205,12 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="schedule-screen" class="screen">
                     <div class="top-bar">
                         <h2 data-i18n="schedule">Programação</h2>
                     </div>
-                    
+
                     <div class="stage-tabs">
                         <div class="stage-tab active" data-i18n="group_stage">Fase de Grupos</div>
                         <div class="stage-tab" data-i18n="round_of_16">Oitavas de Final</div>
@@ -1132,7 +1218,7 @@
                         <div class="stage-tab" data-i18n="semi_finals">Semifinais</div>
                         <div class="stage-tab" data-i18n="final">Final</div>
                     </div>
-                    
+
                     <div class="schedule-content">
                         <!-- Day 1 -->
                         <div class="date-header">Sábado, 14 de junho de 2025</div>
@@ -1140,12 +1226,14 @@
                             <div class="match-stage">Fase de Grupos - Grupo A</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg" alt="Al Ahly" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg"
+                                        alt="Al Ahly" class="team-logo-tiny">
                                     <span class="team-name-small">Al Ahly</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg" alt="Inter Miami" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg"
+                                        alt="Inter Miami" class="team-logo-small">
                                     <span class="team-name-small">Inter Miami</span>
                                 </div>
                             </div>
@@ -1160,20 +1248,32 @@
                                 </div>
                             </div>
                         </div>
-                        
+
+
+                        <!-- Banner da Temu -->
+                        <div class="temu-banner">
+                            <h3>🎁 Pegue seu pack de cupons de R$300 na Temu!</h3>
+                            <p>Ganhe 💰R$300 diretamente no aplicativo da Temu.</p>
+                            <a class="button" href="https://temu.to/k/uudb5isnjj2" target="_blank">Aproveitar Agora</a>
+                            <p>Mais uma surpresa para você! <a href="https://temu.to/k/uhcnfbmxvr5"
+                                    target="_blank">Clique aqui</a> para ganhar juntos comigo 🤝!</p>
+                        </div>
+
                         <!-- Day 2 -->
                         <div class="date-header">Domingo, 15 de junho de 2025</div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo C</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg" alt="Bayern Munich" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+                                        alt="Bayern Munich" class="team-logo-small">
                                     <span class="team-name-small">Bayern Munich</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/12/Auckland_City.svg" alt="Auckland City" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/12/Auckland_City.svg"
+                                        alt="Auckland City" class="team-logo-small">
                                     <span class="team-name-small">Auckland City</span>
                                 </div>
                             </div>
@@ -1188,17 +1288,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo B</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg"
+                                        alt="PSG" class="team-logo-small">
                                     <span class="team-name-small">Paris Saint-Germain</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg" alt="Atlético Madrid" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg"
+                                        alt="Atlético Madrid" class="team-logo-small">
                                     <span class="team-name-small">Atlético Madrid</span>
                                 </div>
                             </div>
@@ -1213,17 +1315,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo A</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg" alt="Palmeiras" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+                                        alt="Palmeiras" class="team-logo-small">
                                     <span class="team-name-small">Palmeiras</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg" alt="Porto" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg" alt="Porto"
+                                        class="team-logo-small">
                                     <span class="team-name-small">Porto</span>
                                 </div>
                             </div>
@@ -1238,17 +1342,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo B</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg" alt="Botafogo" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+                                        alt="Botafogo" class="team-logo-small">
                                     <span class="team-name-small">Botafogo</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Seattle_Sounders_FC.svg" alt="Seattle Sounders" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Seattle_Sounders_FC.svg"
+                                        alt="Seattle Sounders" class="team-logo-small">
                                     <span class="team-name-small">Seattle Sounders</span>
                                 </div>
                             </div>
@@ -1263,15 +1369,16 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Day 3 -->
                         <div class="date-header">Segunda-feira, 16 de junho de 2025</div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo D</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Chelsea" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg"
+                                        alt="Chelsea" class="team-logo-small">
                                     <span class="team-name-small">Chelsea</span>
                                 </div>
                                 <div class="match-score">vs</div>
@@ -1290,17 +1397,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo C</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/19/boca-juniors-svg-13083.svg" alt="Boca Juniors" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2019/02/19/boca-juniors-svg-13083.svg"
+                                        alt="Boca Juniors" class="team-logo-small">
                                     <span class="team-name-small">Boca Juniors</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg" alt="Benfica" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg"
+                                        alt="Benfica" class="team-logo-small">
                                     <span class="team-name-small">Benfica</span>
                                 </div>
                             </div>
@@ -1315,17 +1424,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo D</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg" alt="Flamengo" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+                                        alt="Flamengo" class="team-logo-small">
                                     <span class="team-name-small">Flamengo</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200" alt="Espérance de Tunis" class="team-logo-small">
+                                    <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200"
+                                        alt="Espérance de Tunis" class="team-logo-small">
                                     <span class="team-name-small">Espérance de Tunis</span>
                                 </div>
                             </div>
@@ -1340,20 +1451,22 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Day 4 -->
                         <div class="date-header">Terça-feira, 17 de junho de 2025</div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo F</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg" alt="Fluminense" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+                                        alt="Fluminense" class="team-logo-small">
                                     <span class="team-name-small">Fluminense</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg" alt="Borussia Dortmund" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+                                        alt="Borussia Dortmund" class="team-logo-small">
                                     <span class="team-name-small">Borussia Dortmund</span>
                                 </div>
                             </div>
@@ -1368,17 +1481,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo E</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg" alt="River Plate" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg"
+                                        alt="River Plate" class="team-logo-small">
                                     <span class="team-name-small">River Plate</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg" alt="Urawa Red Diamonds" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg"
+                                        alt="Urawa Red Diamonds" class="team-logo-small">
                                     <span class="team-name-small">Urawa Red Diamonds</span>
                                 </div>
                             </div>
@@ -1393,17 +1508,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo F</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg" alt="Ulsan HD" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg"
+                                        alt="Ulsan HD" class="team-logo-small">
                                     <span class="team-name-small">Ulsan HD</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png" alt="Mamelodi Sundowns" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png"
+                                        alt="Mamelodi Sundowns" class="team-logo-small">
                                     <span class="team-name-small">Mamelodi Sundowns</span>
                                 </div>
                             </div>
@@ -1418,17 +1535,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo E</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png" alt="Monterrey" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png"
+                                        alt="Monterrey" class="team-logo-small">
                                     <span class="team-name-small">Monterrey</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png" alt="Monterrey" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png"
+                                        alt="Monterrey" class="team-logo-small">
                                     <span class="team-name-small">Monterrey</span>
                                 </div>
                             </div>
@@ -1443,20 +1562,22 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Day 5 -->
                         <div class="date-header">Quarta-feira, 18 de junho de 2025</div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo G</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" alt="Manchester City" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+                                        alt="Manchester City" class="team-logo-small">
                                     <span class="team-name-small">Manchester City</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png" alt="Wydad AC" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png"
+                                        alt="Wydad AC" class="team-logo-small">
                                     <span class="team-name-small">Wydad AC</span>
                                 </div>
                             </div>
@@ -1471,17 +1592,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo H</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+                                        alt="Real Madrid" class="team-logo-small">
                                     <span class="team-name-small">Real Madrid</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg" alt="Al Hilal" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg"
+                                        alt="Al Hilal" class="team-logo-small">
                                     <span class="team-name-small">Al Hilal</span>
                                 </div>
                             </div>
@@ -1496,17 +1619,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo H</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg" alt="Pachuca" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg"
+                                        alt="Pachuca" class="team-logo-small">
                                     <span class="team-name-small">Pachuca</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg" alt="FC Salzburg" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg"
+                                        alt="FC Salzburg" class="team-logo-small">
                                     <span class="team-name-small">FC Salzburg</span>
                                 </div>
                             </div>
@@ -1521,17 +1646,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card">
                             <div class="match-stage">Fase de Grupos - Grupo G</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg" alt="Al Ain" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg"
+                                        alt="Al Ain" class="team-logo-small">
                                     <span class="team-name-small">Al Ain</span>
                                 </div>
                                 <div class="match-score">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg" alt="Al Ain" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg"
+                                        alt="Al Ain" class="team-logo-small">
                                     <span class="team-name-small">Al Ain</span>
                                 </div>
                             </div>
@@ -1546,19 +1673,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Load more button -->
                         <div class="load-more-container">
                             <button class="load-more-button">Carregar Mais Partidas</button>
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="results-screen" class="screen">
                     <div class="top-bar">
                         <h2 data-i18n="results">Resultados</h2>
                     </div>
-                    
+
                     <div class="stage-tabs">
                         <div class="stage-tab active" data-i18n="group_stage">Fase de Grupos</div>
                         <div class="stage-tab" data-i18n="round_of_16">Oitavas de Final</div>
@@ -1566,25 +1693,28 @@
                         <div class="stage-tab" data-i18n="semi_finals">Semifinais</div>
                         <div class="stage-tab" data-i18n="final">Final</div>
                     </div>
-                    
+
                     <div class="results-content">
                         <div class="tournament-message">
                             <h3 data-i18n="completed_matches">Partidas Concluídas</h3>
-                            <p>O torneio ainda não começou. Os resultados estarão disponíveis após a realização das partidas.</p>
+                            <p>O torneio ainda não começou. Os resultados estarão disponíveis após a realização das
+                                partidas.</p>
                             <p class="tournament-date">Primeira partida: 14 de junho de 2025</p>
                         </div>
-                        
+
                         <!-- Example Result (for demonstration purposes - to be populated with real results when available) -->
                         <div class="match-card completed future-result">
                             <div class="match-stage">Fase de Grupos - Grupo A</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg" alt="Al Ahly" class="team-logo-tiny">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg"
+                                        alt="Al Ahly" class="team-logo-tiny">
                                     <span class="team-name-small">Al Ahly</span>
                                 </div>
                                 <div class="match-score" data-i18n="vs">x</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg" alt="Inter Miami" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg"
+                                        alt="Inter Miami" class="team-logo-small">
                                     <span class="team-name-small">Inter Miami</span>
                                 </div>
                             </div>
@@ -1599,17 +1729,19 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="match-card completed future-result">
                             <div class="match-stage">Fase de Grupos - Grupo B</div>
                             <div class="match-teams">
                                 <div class="match-team">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG" class="team-logo-small">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg"
+                                        alt="PSG" class="team-logo-small">
                                     <span class="team-name-small">Paris Saint-Germain</span>
                                 </div>
                                 <div class="match-score" data-i18n="vs">vs</div>
                                 <div class="match-team">
-                                    <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg" alt="Atlético Madrid" class="team-logo-small">
+                                    <img src="https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg"
+                                        alt="Atlético Madrid" class="team-logo-small">
                                     <span class="team-name-small">Atlético Madrid</span>
                                 </div>
                             </div>
@@ -1627,7 +1759,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="bottom-nav">
                 <div class="nav-item active" onclick="showScreen('home-screen')">
                     <span class="material-icons">home</span>
@@ -1655,31 +1787,31 @@
 
     <script src="translations.js"></script>
     <script src="script.js"></script>
-    
-<!-- Seletor de idiomas removido, aplicativo apenas em português -->
+
+    <!-- Seletor de idiomas removido, aplicativo apenas em português -->
 </body>
 
 <script>
-    
+
     function getQuery(q) {
         return (window.location.search.match(new RegExp('[?&]' + q + '=([^&]+)')) || [, null])[1];
-     }
-
-     if(getQuery("hide")){
-        document.getElementById("headerTitulo").style.display = "none";
-     }
-
-
-
-    function randomIntFromInterval(min, max) { 
-         return Math.floor(Math.random() * (max - min + 1) + min);
     }
 
-   
+    if (getQuery("hide")) {
+        document.getElementById("headerTitulo").style.display = "none";
+    }
+
+
+
+    function randomIntFromInterval(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
+
 
     var qtdPessoas = document.getElementsByClassName("qtdPessoas");
     for (var i = 0; i < qtdPessoas.length; i++) {
-        qtdPessoas[i].innerHTML = "🔥 "+ randomIntFromInterval(11, 150) + " pessoas comprando agora!🔥🔥";
+        qtdPessoas[i].innerHTML = "🔥 " + randomIntFromInterval(11, 150) + " pessoas comprando agora!🔥🔥";
     }
 
     function redirecionar(url) {
@@ -1688,4 +1820,5 @@
     }
 
 </script>
+
 </html>

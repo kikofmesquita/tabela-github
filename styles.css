@@ -708,4 +708,60 @@ body {
       color: #fffbe7;
       text-align: center;
     }
-  
+  .temu-banner {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #fef6e4;
+      border: 2px solid #fcd34d;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .temu-banner h3 {
+      color: #d97706;
+      margin-bottom: 10px;
+    }
+    .temu-banner a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f59e0b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .temu-banner p {
+      margin-top: 10px;
+      font-size: 0.95em;
+    }
+
+    .amazon-banner {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #eaf2f8;
+  border: 2px solid #0073b1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.amazon-banner h3 {
+  color: #1a4c8b;
+  margin-bottom: 10px;
+}
+
+.amazon-banner p {
+  margin: 10px 0;
+  font-size: 0.95em;
+}
+
+.amazon-button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
