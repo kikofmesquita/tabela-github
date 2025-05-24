@@ -1178,15 +1178,18 @@ function showScreen(screenId) {
 
 
     try {
-        
+
         if (firstLoad && showAd) {
             AndroidInterface.onCustomFunctionCalled("");
             showAd = false;
+            setTimeout(() => {
+                showAd = true;
+            }, 30000);
         }
 
         firstLoad = true;
     } catch (erro) {
-        console.error("Erro capturado:", erro.message);
+        console.info("Erro capturado:", erro.message);
     } finally {
 
         // Esconde todas as telas
