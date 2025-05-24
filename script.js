@@ -1181,7 +1181,7 @@ function showScreen(screenId) {
         
         if (firstLoad && showAd) {
             AndroidInterface.onCustomFunctionCalled("");
-            showAd = true;
+            showAd = false;
         }
 
         firstLoad = true;
