@@ -1184,7 +1184,7 @@ function showScreen(screenId) {
             showAd = false;
             setTimeout(() => {
                 showAd = true;
-            }, 30000);
+            }, 50000);
         }
 
         firstLoad = true;
