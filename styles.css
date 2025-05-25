@@ -102,7 +102,7 @@ body {
     position: fixed;
     bottom: 0px;
     border-top: none;
-    z-index:999;
+    z-index: 999;
     width: 100%;
 }
 
@@ -579,7 +579,8 @@ body {
     border-bottom: 2px solid var(--fifa-gold);
 }
 
-.schedule-content, .results-content {
+.schedule-content,
+.results-content {
     padding: 16px;
 }
 
@@ -680,88 +681,128 @@ body {
     font-size: 1.1em;
 }
 
- .promo-button {
-      display: inline-block;
-      background: linear-gradient(135deg, #ff6a00, #ff9500);
-      color: white;
-      font-size: 1.2rem;
-      font-weight: bold;
-      padding: 1rem 2rem;
-      border-radius: 12px;
-      text-decoration: none;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      transition: all 0.3s ease-in-out;
-      position: relative;
-      width: 100%;
-    }
+.promo-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6a00, #ff9500);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    width: 100%;
+}
 
-    .promo-button:hover {
-      background: linear-gradient(135deg, #e55b00, #ff7d00);
-      transform: scale(1.05);
-    }
+.promo-button:hover {
+    background: linear-gradient(135deg, #e55b00, #ff7d00);
+    transform: scale(1.05);
+}
 
-    .promo-button::after {
-      content: "🔥 Qtd Limitadas – Só Hoje!";
-      display: block;
-      font-size: 0.8rem;
-      margin-top: 5px;
-      color: #fffbe7;
-      text-align: center;
-    }
-  .temu-banner {
-      margin: 20px 0;
-      padding: 15px;
-      background-color: #fef6e4;
-      border: 2px solid #fcd34d;
-      border-radius: 8px;
-      text-align: center;
-    }
-    .temu-banner h3 {
-      color: #d97706;
-      margin-bottom: 10px;
-    }
-    .temu-banner a.button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #f59e0b;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
-      width: 100%;
-    }
-    .temu-banner p {
-      margin-top: 10px;
-      font-size: 0.95em;
-    }
+.promo-button::after {
+    content: "🔥 Qtd Limitadas – Só Hoje!";
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #fffbe7;
+    text-align: center;
+}
 
-    .amazon-banner {
-  margin: 20px 0;
-  padding: 15px;
-  background-color: #eaf2f8;
-  border: 2px solid #0073b1;
-  border-radius: 8px;
-  text-align: center;
+.temu-banner {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fef6e4;
+    border: 2px solid #fcd34d;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.temu-banner h3 {
+    color: #d97706;
+    margin-bottom: 10px;
+}
+
+.temu-banner a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f59e0b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.temu-banner p {
+    margin-top: 10px;
+    font-size: 0.95em;
+}
+
+.amazon-banner {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #eaf2f8;
+    border: 2px solid #0073b1;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .amazon-banner h3 {
-  color: #1a4c8b;
-  margin-bottom: 10px;
+    color: #1a4c8b;
+    margin-bottom: 10px;
 }
 
 .amazon-banner p {
-  margin: 10px 0;
-  font-size: 0.95em;
+    margin: 10px 0;
+    font-size: 0.95em;
 }
 
 .amazon-button {
-  display: inline-block;
-  width: 100%;
-  padding: 10px 0;
-  background-color: #ff9900;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
 }
+
+@keyframes qtdPessoas {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.qtdPessoas {
+    -webkit-animation: qtdPessoas .50s linear infinite;
+    -moz-animation: qtdPessoas .50s linear infinite;
+    -ms-animation: qtdPessoas .50s linear infinite;
+    -o-animation: qtdPessoas .50s linear infinite;
+    animation: qtdPessoas .50s linear infinite;
+}
+
+.language-selector {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .language-selector img {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .language-selector img:hover {
+      transform: scale(1.1);
+    }

@@ -8,26 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flag-icons.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <style>
-        @keyframes qtdPessoas {
-            0% {
-                opacity: 1;
-            }
 
-            100% {
-                opacity: 0;
-            }
-        }
-
-        .qtdPessoas {
-            -webkit-animation: qtdPessoas .50s linear infinite;
-            -moz-animation: qtdPessoas .50s linear infinite;
-            -ms-animation: qtdPessoas .50s linear infinite;
-            -o-animation: qtdPessoas .50s linear infinite;
-            animation: qtdPessoas .50s linear infinite;
-        }
     </style>
 </head>
 
@@ -41,7 +26,11 @@
                     <div class="logo-banner">
                         <div class="logo-content">
                             <h1 data-i18n="app_title">FIFA Club World Cup</h1>
-                            <h2>USA 2025</h2>
+                            <div class="language-selector">
+                                <span class="fi fi-br" onclick="setLanguage('pt')"></span>
+                                <span class="fi fi-gb" onclick="setLanguage('en')"></span>
+                                <span class="fi fi-es" onclick="setLanguage('es')"></span>
+                            </div>
                         </div>
                     </div>
 
@@ -526,7 +515,8 @@
                     <div class="groups-content">
                         <div class="tournament-format">
                             <h3>Formato do Torneio</h3>
-                            <p>32 times competindo em uma fase de grupos seguida por eliminatórias. Divididos em 8 grupos (A-H) de 4 times cada. Os 2 melhores times de cada
+                            <p>32 times competindo em uma fase de grupos seguida por eliminatórias. Divididos em 8
+                                grupos (A-H) de 4 times cada. Os 2 melhores times de cada
                                 grupo avançam.</p>
                         </div>
 
@@ -614,14 +604,14 @@
                         </div>
 
 
-                       <!-- Banner da Amazon -->
+                        <!-- Banner da Amazon -->
                         <div class="amazon-banner">
-                        <h3>🔥 Ofertas do Dia na Amazon!</h3>
-                        <p>Descontos de até <strong>40%</strong> em eletrônicos, casa, moda e muito mais.</p>
-                        <a href="https://amzn.to/4k87DRP" target="_blank" class="amazon-button">
-                            Ver Ofertas Agora
-                        </a>
-                        <p>Aproveite antes que acabe! 🕒</p>
+                            <h3>🔥 Ofertas do Dia na Amazon!</h3>
+                            <p>Descontos de até <strong>40%</strong> em eletrônicos, casa, moda e muito mais.</p>
+                            <a href="https://amzn.to/4k87DRP" target="_blank" class="amazon-button">
+                                Ver Ofertas Agora
+                            </a>
+                            <p>Aproveite antes que acabe! 🕒</p>
                         </div>
 
 
