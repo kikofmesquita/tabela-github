@@ -1180,8 +1180,14 @@ function showScreen(screenId) {
     try {
 
         if (firstLoad && showAd) {
-            AndroidInterface.onCustomFunctionCalled("");
-            showAd = false;
+
+             setTimeout(() => {
+                AndroidInterface.onCustomFunctionCalled("");
+                showAd = false;
+            }, 3000);
+
+            
+            
             setTimeout(() => {
                 showAd = true;
             }, 50000);
