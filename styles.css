@@ -806,3 +806,38 @@ body {
     .language-selector img:hover {
       transform: scale(1.1);
     }
+
+    .binance-banner {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fefce8;
+  border: 2px solid #facc15;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.binance-banner h3 {
+  color: #ca8a04;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.binance-banner p {
+  margin: 10px 0;
+  font-size: 0.95em;
+  color: #1e293b;
+}
+
+.binance-banner .button {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #f59e0b;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 12px;
+  font-size: 16px;
+}

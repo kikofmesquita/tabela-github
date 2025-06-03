@@ -450,8 +450,8 @@ const teams = {
         coach: 'Mauricio Pochettino',
         matches: [
             {
-                opponent: 'Substituto do Club León',
-                opponentLogo: 'https://via.placeholder.com/150?text=TBD',
+                opponent: 'Los Angeles FC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
                 date: '16 de junho',
                 time: '15:00',
                 venue: 'Estádio Mercedes-Benz, Atlanta',
@@ -502,8 +502,8 @@ const teams = {
                 stage: 'Fase de Grupos - Grupo D'
             },
             {
-                opponent: 'Substituto do Club León',
-                opponentLogo: 'https://via.placeholder.com/150?text=TBD',
+                opponent: 'Los Angeles FC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
                 date: '24 de junho',
                 time: '21:00',
                 venue: 'Estádio Camping World, Orlando',
@@ -530,8 +530,8 @@ const teams = {
                 stage: 'Fase de Grupos - Grupo D'
             },
             {
-                opponent: 'Substituto do Club León',
-                opponentLogo: 'https://via.placeholder.com/150?text=TBD',
+                opponent: 'Los Angeles FC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
                 date: '20 de junho',
                 time: '17:00',
                 venue: 'GEODIS Park, Nashville',
@@ -547,11 +547,11 @@ const teams = {
             }
         ]
     },
-    'leon': {
-        name: 'Substituto do Club León',
-        country: 'A definir',
+    'Angeles': {
+        name: 'Los Angeles FC',
+        country: 'EUA',
         group: 'D',
-        logoUrl: 'https://via.placeholder.com/150?text=TBD',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
         confederation: 'CONCACAF',
         qualifiedAs: 'Repescagem',
         fifaRanking: 'N/A',
@@ -1368,7 +1368,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (loadMoreButton) {
         loadMoreButton.addEventListener('click', function () {
             // Toggle mensagem para demonstrar a funcionalidade
-            alert("Mais partidas serão carregadas quando implementado com uma API real");
+            alert("Mais partidas serão carregadas ao longo do evento");
         });
     }
 
