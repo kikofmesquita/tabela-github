@@ -1,0 +1,4 @@
+<!-- Salve como btn-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24">
+  <path d="M20 12v7a2 2 0 0 1-2 2h-4v-9h6zm-6-2h6V8h-6V6a2 2 0 1 0-4 0v2h-2V6a2 2 0 1 0-4 0v2H2v2h6v2H2v7a2 2 0 0 0 2 2h4v-9h4v9h4a2 2 0 0 0 2-2v-7h-6v-2z"/>
+</svg>
