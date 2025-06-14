@@ -938,3 +938,28 @@ body {
   font-size: 14px;
   color: #666;
 }
+.match-status{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background: #757575;
+    font-size: 12px;
+    color: #fff;
+    font-style: italic;
+    border: 1.5px solid transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: inline-flex;
+    isolation: isolate;
+    outline: 2px solid transparent;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 8px;
+}
+
+

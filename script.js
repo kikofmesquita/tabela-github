@@ -15,7 +15,7 @@ const teams = {
                 opponent: 'Inter Miami',
                 opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/07/25/inter-miami-svg-62393.svg',
                 date: '14 de junho',
-                time: '20:00',
+                time: '21:00',
                 venue: 'Estádio Hard Rock, Miami',
                 stage: 'Fase de Grupos - Grupo A'
             },
@@ -51,7 +51,7 @@ const teams = {
                 opponent: 'Al Ahly',
                 opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/13/al-ahly-svg-65689.svg',
                 date: '14 de junho',
-                time: '20:00',
+                time: '21:00',
                 venue: 'Estádio Hard Rock, Miami',
                 stage: 'Fase de Grupos - Grupo A'
             },
@@ -87,7 +87,7 @@ const teams = {
                 opponent: 'Porto',
                 opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg',
                 date: '15 de junho',
-                time: '18:00',
+                time: '19:00',
                 venue: 'Estádio MetLife, Nova Jersey',
                 stage: 'Fase de Grupos - Grupo A'
             },
@@ -123,7 +123,7 @@ const teams = {
                 opponent: 'Palmeiras',
                 opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg',
                 date: '15 de junho',
-                time: '18:00',
+                time: '19:00',
                 venue: 'Estádio MetLife, Nova Jersey',
                 stage: 'Fase de Grupos - Grupo A'
             },
@@ -161,7 +161,7 @@ const teams = {
                 opponent: 'Atlético de Madrid',
                 opponentLogo: 'https://s.sde.globo.com/media/organizations/2025/03/12/Atl%C3%A9tico_de_Madrid.svg',
                 date: '15 de junho',
-                time: '12:00',
+                time: '13:00',
                 venue: 'Estádio Rose Bowl, Los Angeles',
                 stage: 'Fase de Grupos - Grupo B'
             },
@@ -197,7 +197,7 @@ const teams = {
                 opponent: 'Paris Saint-Germain',
                 opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg',
                 date: '15 de junho',
-                time: '12:00',
+                time: '16:00',
                 venue: 'Estádio Rose Bowl, Los Angeles',
                 stage: 'Fase de Grupos - Grupo B'
             },
@@ -1302,13 +1302,13 @@ function getGroupColor(group) {
 function traduzirTextosDosJogos() {
     // Traduzir todos os estágios das partidas
     document.querySelectorAll('.match-stage').forEach(element => {
-        let texto = element.textContent;
+        let texto = element.innerHTML;
         texto = texto.replace('Group Stage - Group', 'Fase de Grupos - Grupo');
         texto = texto.replace('Round of 16', 'Oitavas de Final');
         texto = texto.replace('Quarter Finals', 'Quartas de Final');
         texto = texto.replace('Semi Finals', 'Semifinais');
         texto = texto.replace('Final', 'Final');
-        element.textContent = texto;
+        element.innerHTML = texto;
     });
 
     // Traduzir botão de carregar mais
