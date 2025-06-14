@@ -1032,7 +1032,7 @@ const teams = {
     confederation: 'UEFA',
     qualifiedAs: 'Classificação UEFA',
     fifaRanking: 2,
-    coach: 'Carlo Ancelotti',
+    coach: 'Xabi Alonso',
     matches: [
         {
             opponent: 'Al Hilal',
