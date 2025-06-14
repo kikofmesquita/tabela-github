@@ -1185,12 +1185,8 @@ function showScreen(screenId) {
                 AndroidInterface.onCustomFunctionCalled("");
                 showAd = false;
             }, 3000);
-
-            
-            
-            setTimeout(() => {
-                showAd = true;
-            }, 50000);
+            // Exibe o anúncio após 3 segundos
+            console.log("Anúncio exibido após 3 segundos.");    
         }
 
         firstLoad = true;
