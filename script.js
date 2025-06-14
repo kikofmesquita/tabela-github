@@ -1266,7 +1266,7 @@ function showTeamDetails(teamId) {
             <div class="match-details">
                 <div class="match-detail">
                     <span class="material-icons">schedule</span>
-                    <span>${match.date}</span>
+                    <span class="match-detail-date">${match.date}</span>
                     <span>${match.time.replace('h', ':')}</span>
                 </div>
                 <div class="match-detail">
