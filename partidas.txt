@@ -25,6 +25,7 @@ Data           | Horário (BRT) | Jogo                                  | Grupo 
 20/06 (Sexta)  | 19:00         | Club León x Espérance                 | Grupo D | Geodis Park (Nashville, TN)
 20/06 (Sexta)  | 22:00         | Bayern de Munique x Boca Juniors      | Grupo C | Hard Rock Stadium (Miami, FL)
 21/06 (Sábado) | 13:00         | Mamelodi Sundowns x Borussia Dortmund | Grupo F | TQL Stadium (Cincinnati, OH)
+21/06 (Quarta) | 16:00         | Internazionale x Urawa Red Diamonds   | Grupo E | Lumen Field (Seattle, WA)
 21/06 (Sábado) | 19:00         | Fluminense x Ulsan HD                 | Grupo F | MetLife Stadium (East Rutherford, NJ)
 21/06 (Sábado) | 19:00         | River Plate x Monterrey               | Grupo E | Lumen Field (Seattle, WA)
 22/06 (Domingo)| 12:00         | Juventus x Wydad AC                   | Grupo G | Camping World Stadium (Orlando, FL)
