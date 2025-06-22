@@ -439,735 +439,735 @@ const teams = {
 
 
     // ...existing code...
-// Grupo D
-'chelsea': {
-    name: 'Chelsea',
-    country: 'Inglaterra',
-    group: 'D',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 14,
-    coach: 'Mauricio Pochettino',
-    matches: [
-        {
-            opponent: 'Los Angeles FC',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
-            date: '16 de junho',
-            time: '16:00',
-            venue: 'Estádio Mercedes-Benz, Atlanta',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Flamengo',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
-            date: '20 de junho',
-            time: '15:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Espérance de Tunis',
-            opponentLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
-            date: '24 de junho',
-            time: '21:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo D'
-        }
-    ]
-},
-'flamengo': {
-    name: 'Flamengo',
-    country: 'Brasil',
-    group: 'D',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
-    confederation: 'CONMEBOL',
-    qualifiedAs: 'Copa Libertadores',
-    fifaRanking: 10,
-    coach: 'Tite',
-    matches: [
-        {
-            opponent: 'Espérance de Tunis',
-            opponentLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
-            date: '16 de junho',
-            time: '22:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Chelsea',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
-            date: '20 de junho',
-            time: '15:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Los Angeles FC',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
-            date: '24 de junho',
-            time: '22:00',
-            venue: 'Estádio Camping World, Orlando',
-            stage: 'Fase de Grupos - Grupo D'
-        }
-    ]
-},
-'esperance': {
-    name: 'Espérance',
-    country: 'Tunísia',
-    group: 'D',
-    logoUrl: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
-    confederation: 'CAF',
-    qualifiedAs: 'CAF Champions League',
-    fifaRanking: 45,
-    coach: 'Miguel Cardoso',
-    matches: [
-        {
-            opponent: 'Flamengo',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
-            date: '16 de junho',
-            time: '22:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Los Angeles FC',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
-            date: '20 de junho',
-            time: '19:00',
-            venue: 'GEODIS Park, Nashville',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Chelsea',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
-            date: '24 de junho',
-            time: '21:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo D'
-        }
-    ]
-},
-'Angeles': {
-    name: 'Los Angeles FC',
-    country: 'EUA',
-    group: 'D',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
-    confederation: 'CONCACAF',
-    qualifiedAs: 'Repescagem',
-    fifaRanking: 'N/A',
-    coach: 'A definir',
-    matches: [
-        {
-            opponent: 'Chelsea',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
-            date: '16 de junho',
-            time: '16:00',
-            venue: 'Estádio Mercedes-Benz, Atlanta',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Espérance de Tunis',
-            opponentLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
-            date: '20 de junho',
-            time: '19:00',
-            venue: 'GEODIS Park, Nashville',
-            stage: 'Fase de Grupos - Grupo D'
-        },
-        {
-            opponent: 'Flamengo',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
-            date: '24 de junho',
-            time: '22:00',
-            venue: 'Estádio Camping World, Orlando',
-            stage: 'Fase de Grupos - Grupo D'
-        }
-    ]
-},
+    // Grupo D
+    'chelsea': {
+        name: 'Chelsea',
+        country: 'Inglaterra',
+        group: 'D',
+        logoUrl: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 14,
+        coach: 'Mauricio Pochettino',
+        matches: [
+            {
+                opponent: 'Los Angeles FC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
+                date: '16 de junho',
+                time: '16:00',
+                venue: 'Estádio Mercedes-Benz, Atlanta',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Flamengo',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
+                date: '20 de junho',
+                time: '15:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Espérance de Tunis',
+                opponentLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
+                date: '24 de junho',
+                time: '21:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo D'
+            }
+        ]
+    },
+    'flamengo': {
+        name: 'Flamengo',
+        country: 'Brasil',
+        group: 'D',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
+        confederation: 'CONMEBOL',
+        qualifiedAs: 'Copa Libertadores',
+        fifaRanking: 10,
+        coach: 'Tite',
+        matches: [
+            {
+                opponent: 'Espérance de Tunis',
+                opponentLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
+                date: '16 de junho',
+                time: '22:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Chelsea',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+                date: '20 de junho',
+                time: '15:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Los Angeles FC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
+                date: '24 de junho',
+                time: '22:00',
+                venue: 'Estádio Camping World, Orlando',
+                stage: 'Fase de Grupos - Grupo D'
+            }
+        ]
+    },
+    'esperance': {
+        name: 'Espérance',
+        country: 'Tunísia',
+        group: 'D',
+        logoUrl: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
+        confederation: 'CAF',
+        qualifiedAs: 'CAF Champions League',
+        fifaRanking: 45,
+        coach: 'Miguel Cardoso',
+        matches: [
+            {
+                opponent: 'Flamengo',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
+                date: '16 de junho',
+                time: '22:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Los Angeles FC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
+                date: '20 de junho',
+                time: '19:00',
+                venue: 'GEODIS Park, Nashville',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Chelsea',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+                date: '24 de junho',
+                time: '21:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo D'
+            }
+        ]
+    },
+    'Angeles': {
+        name: 'Los Angeles FC',
+        country: 'EUA',
+        group: 'D',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2023/08/15/los-angeles-fc-svg-63033.svg',
+        confederation: 'CONCACAF',
+        qualifiedAs: 'Repescagem',
+        fifaRanking: 'N/A',
+        coach: 'A definir',
+        matches: [
+            {
+                opponent: 'Chelsea',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+                date: '16 de junho',
+                time: '16:00',
+                venue: 'Estádio Mercedes-Benz, Atlanta',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Espérance de Tunis',
+                opponentLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png&h=200&w=200',
+                date: '20 de junho',
+                time: '19:00',
+                venue: 'GEODIS Park, Nashville',
+                stage: 'Fase de Grupos - Grupo D'
+            },
+            {
+                opponent: 'Flamengo',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg',
+                date: '24 de junho',
+                time: '22:00',
+                venue: 'Estádio Camping World, Orlando',
+                stage: 'Fase de Grupos - Grupo D'
+            }
+        ]
+    },
 
-// Grupo E
-'river': {
-    name: 'River Plate',
-    country: 'Argentina',
-    group: 'E',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
-    confederation: 'CONMEBOL',
-    qualifiedAs: 'Copa Libertadores',
-    fifaRanking: 11,
-    coach: 'Martín Demichelis',
-    matches: [
-        {
-            opponent: 'Urawa Red Diamonds',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
-            date: '17 de junho',
-            time: '16:00',
-            venue: 'Estádio Lumen Field, Seattle',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'Monterrey',
-            opponentLogo: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
-            date: '21 de junho',
-            time: '19:00',
-            venue: 'Estádio Rose Bowl, Los Angeles',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'Internazionale',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
-            date: '25 de junho',
-            time: '22:00',
-            venue: 'Estádio Lumen Field, Seattle',
-            stage: 'Fase de Grupos - Grupo E'
-        }
-    ]
-},
-'urawa': {
-    name: 'Urawa Red Diamonds',
-    country: 'Japão',
-    group: 'E',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
-    confederation: 'AFC',
-    qualifiedAs: 'AFC Champions League',
-    fifaRanking: 50,
-    coach: 'Per-Mathias Høgmo',
-    matches: [
-        {
-            opponent: 'River Plate',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
-            date: '17 de junho',
-            time: '16:00',
-            venue: 'Estádio Lumen Field, Seattle',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'Internazionale',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
-            date: '21 de junho',
-            time: '22:00',
-            venue: 'Estádio Lumen Field, Seattle',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'Monterrey',
-            opponentLogo: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
-            date: '25 de junho',
-            time: '22:00',
-            venue: 'Estádio Rose Bowl, Los Angeles',
-            stage: 'Fase de Grupos - Grupo E'
-        }
-    ]
-},
-'monterrey': {
-    name: 'Monterrey',
-    country: 'México',
-    group: 'E',
-    logoUrl: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
-    confederation: 'CONCACAF',
-    qualifiedAs: 'Concacaf Champions Cup',
-    fifaRanking: 30,
-    coach: 'Fernando Ortiz',
-    matches: [
-        {
-            opponent: 'Internazionale',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
-            date: '17 de junho',
-            time: '22:00',
-            venue: 'Estádio Rose Bowl, Los Angeles',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'River Plate',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
-            date: '21 de junho',
-            time: '19:00',
-            venue: 'Estádio Rose Bowl, Los Angeles',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'Urawa Red Diamonds',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
-            date: '25 de junho',
-            time: '22:00',
-            venue: 'Estádio Rose Bowl, Los Angeles',
-            stage: 'Fase de Grupos - Grupo E'
-        }
-    ]
-},
-'inter': {
-    name: 'Inter',
-    country: 'Itália',
-    group: 'E',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/inter.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 5,
-    coach: 'Simone Inzaghi',
-    matches: [
-        {
-            opponent: 'Monterrey',
-            opponentLogo: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
-            date: '17 de junho',
-            time: '22:00',
-            venue: 'Estádio Rose Bowl, Los Angeles',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'Urawa Red Diamonds',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
-            date: '21 de junho',
-            time: '22:00',
-            venue: 'Estádio Lumen Field, Seattle',
-            stage: 'Fase de Grupos - Grupo E'
-        },
-        {
-            opponent: 'River Plate',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
-            date: '25 de junho',
-            time: '22:00',
-            venue: 'Estádio Lumen Field, Seattle',
-            stage: 'Fase de Grupos - Grupo E'
-        }
-    ]
-},
+    // Grupo E
+    'river': {
+        name: 'River Plate',
+        country: 'Argentina',
+        group: 'E',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
+        confederation: 'CONMEBOL',
+        qualifiedAs: 'Copa Libertadores',
+        fifaRanking: 11,
+        coach: 'Martín Demichelis',
+        matches: [
+            {
+                opponent: 'Urawa Red Diamonds',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
+                date: '17 de junho',
+                time: '16:00',
+                venue: 'Estádio Lumen Field, Seattle',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'Monterrey',
+                opponentLogo: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
+                date: '21 de junho',
+                time: '19:00',
+                venue: 'Estádio Rose Bowl, Los Angeles',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'Internazionale',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
+                date: '25 de junho',
+                time: '22:00',
+                venue: 'Estádio Lumen Field, Seattle',
+                stage: 'Fase de Grupos - Grupo E'
+            }
+        ]
+    },
+    'urawa': {
+        name: 'Urawa Red Diamonds',
+        country: 'Japão',
+        group: 'E',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
+        confederation: 'AFC',
+        qualifiedAs: 'AFC Champions League',
+        fifaRanking: 50,
+        coach: 'Per-Mathias Høgmo',
+        matches: [
+            {
+                opponent: 'River Plate',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
+                date: '17 de junho',
+                time: '16:00',
+                venue: 'Estádio Lumen Field, Seattle',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'Internazionale',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
+                date: '21 de junho',
+                time: '22:00',
+                venue: 'Estádio Lumen Field, Seattle',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'Monterrey',
+                opponentLogo: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
+                date: '25 de junho',
+                time: '22:00',
+                venue: 'Estádio Rose Bowl, Los Angeles',
+                stage: 'Fase de Grupos - Grupo E'
+            }
+        ]
+    },
+    'monterrey': {
+        name: 'Monterrey',
+        country: 'México',
+        group: 'E',
+        logoUrl: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
+        confederation: 'CONCACAF',
+        qualifiedAs: 'Concacaf Champions Cup',
+        fifaRanking: 30,
+        coach: 'Fernando Ortiz',
+        matches: [
+            {
+                opponent: 'Internazionale',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
+                date: '17 de junho',
+                time: '22:00',
+                venue: 'Estádio Rose Bowl, Los Angeles',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'River Plate',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
+                date: '21 de junho',
+                time: '19:00',
+                venue: 'Estádio Rose Bowl, Los Angeles',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'Urawa Red Diamonds',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
+                date: '25 de junho',
+                time: '22:00',
+                venue: 'Estádio Rose Bowl, Los Angeles',
+                stage: 'Fase de Grupos - Grupo E'
+            }
+        ]
+    },
+    'inter': {
+        name: 'Inter',
+        country: 'Itália',
+        group: 'E',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/inter.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 5,
+        coach: 'Simone Inzaghi',
+        matches: [
+            {
+                opponent: 'Monterrey',
+                opponentLogo: 'https://s.sde.globo.com/media/original/2011/12/07/Monterrey_65.png',
+                date: '17 de junho',
+                time: '22:00',
+                venue: 'Estádio Rose Bowl, Los Angeles',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'Urawa Red Diamonds',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/12/19/urawa-svg-65917.svg',
+                date: '21 de junho',
+                time: '22:00',
+                venue: 'Estádio Lumen Field, Seattle',
+                stage: 'Fase de Grupos - Grupo E'
+            },
+            {
+                opponent: 'River Plate',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/14/River_Escudo_novo.svg',
+                date: '25 de junho',
+                time: '22:00',
+                venue: 'Estádio Lumen Field, Seattle',
+                stage: 'Fase de Grupos - Grupo E'
+            }
+        ]
+    },
 
-// Grupo F
-'fluminense': {
-    name: 'Fluminense',
-    country: 'Brasil',
-    group: 'F',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
-    confederation: 'CONMEBOL',
-    qualifiedAs: 'Copa Libertadores',
-    fifaRanking: 15,
-    coach: 'Fernando Diniz',
-    matches: [
-        {
-            opponent: 'Borussia Dortmund',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
-            date: '17 de junho',
-            time: '13:00',
-            venue: 'Estádio MetLife, Nova Jersey',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Ulsan HD',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
-            date: '21 de junho',
-            time: '19:00',
-            venue: 'Estádio MetLife, Nova Jersey',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Mamelodi Sundowns',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
-            date: '25 de junho',
-            time: '16:00',
-            venue: 'Estádio Hard Rock, Miami',
-            stage: 'Fase de Grupos - Grupo F'
-        }
-    ]
-},
-'dortmund': {
-    name: 'Borussia Dortmund',
-    country: 'Alemanha',
-    group: 'F',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/borussia-dortmund.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 7,
-    coach: 'Edin Terzić',
-    matches: [
-        {
-            opponent: 'Fluminense',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
-            date: '17 de junho',
-            time: '13:00',
-            venue: 'Estádio MetLife, Nova Jersey',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Mamelodi Sundowns',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
-            date: '21 de junho',
-            time: '13:00',
-            venue: 'TQL Stadium, Cincinnati',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Ulsan HD',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
-            date: '25 de junho',
-            time: '16:00',
-            venue: 'TQL Stadium, Cincinnati',
-            stage: 'Fase de Grupos - Grupo F'
-        }
-    ]
-},
-'ulsan': {
-    name: 'Ulsan Hyundai',
-    country: 'Coreia do Sul',
-    group: 'F',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
-    confederation: 'AFC',
-    qualifiedAs: 'AFC Champions League',
-    fifaRanking: 40,
-    coach: 'Hong Myung-bo',
-    matches: [
-        {
-            opponent: 'Mamelodi Sundowns',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
-            date: '17 de junho',
-            time: '19:00',
-            venue: 'Inter&Co Stadium, Orlando',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Fluminense',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
-            date: '21 de junho',
-            time: '19:00',
-            venue: 'Estádio MetLife, Nova Jersey',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Borussia Dortmund',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
-            date: '25 de junho',
-            time: '16:00',
-            venue: 'TQL Stadium, Cincinnati',
-            stage: 'Fase de Grupos - Grupo F'
-        }
-    ]
-},
-'sundowns': {
-    name: 'Mamelodi Sundowns',
-    country: 'África do Sul',
-    group: 'F',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
-    confederation: 'CAF',
-    qualifiedAs: 'CAF Champions League',
-    fifaRanking: 55,
-    coach: 'Rulani Mokwena',
-    matches: [
-        {
-            opponent: 'Ulsan HD',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
-            date: '17 de junho',
-            time: '19:00',
-            venue: 'Inter&Co Stadium, Orlando',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Borussia Dortmund',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
-            date: '21 de junho',
-            time: '13:00',
-            venue: 'TQL Stadium, Cincinnati',
-            stage: 'Fase de Grupos - Grupo F'
-        },
-        {
-            opponent: 'Fluminense',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
-            date: '25 de junho',
-            time: '16:00',
-            venue: 'Estádio Hard Rock, Miami',
-            stage: 'Fase de Grupos - Grupo F'
-        }
-    ]
-},
+    // Grupo F
+    'fluminense': {
+        name: 'Fluminense',
+        country: 'Brasil',
+        group: 'F',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
+        confederation: 'CONMEBOL',
+        qualifiedAs: 'Copa Libertadores',
+        fifaRanking: 15,
+        coach: 'Fernando Diniz',
+        matches: [
+            {
+                opponent: 'Borussia Dortmund',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
+                date: '17 de junho',
+                time: '13:00',
+                venue: 'Estádio MetLife, Nova Jersey',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Ulsan HD',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
+                date: '21 de junho',
+                time: '19:00',
+                venue: 'Estádio MetLife, Nova Jersey',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Mamelodi Sundowns',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
+                date: '25 de junho',
+                time: '16:00',
+                venue: 'Estádio Hard Rock, Miami',
+                stage: 'Fase de Grupos - Grupo F'
+            }
+        ]
+    },
+    'dortmund': {
+        name: 'Borussia Dortmund',
+        country: 'Alemanha',
+        group: 'F',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/borussia-dortmund.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 7,
+        coach: 'Edin Terzić',
+        matches: [
+            {
+                opponent: 'Fluminense',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
+                date: '17 de junho',
+                time: '13:00',
+                venue: 'Estádio MetLife, Nova Jersey',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Mamelodi Sundowns',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
+                date: '21 de junho',
+                time: '13:00',
+                venue: 'TQL Stadium, Cincinnati',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Ulsan HD',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
+                date: '25 de junho',
+                time: '16:00',
+                venue: 'TQL Stadium, Cincinnati',
+                stage: 'Fase de Grupos - Grupo F'
+            }
+        ]
+    },
+    'ulsan': {
+        name: 'Ulsan Hyundai',
+        country: 'Coreia do Sul',
+        group: 'F',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
+        confederation: 'AFC',
+        qualifiedAs: 'AFC Champions League',
+        fifaRanking: 40,
+        coach: 'Hong Myung-bo',
+        matches: [
+            {
+                opponent: 'Mamelodi Sundowns',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
+                date: '17 de junho',
+                time: '19:00',
+                venue: 'Inter&Co Stadium, Orlando',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Fluminense',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
+                date: '21 de junho',
+                time: '19:00',
+                venue: 'Estádio MetLife, Nova Jersey',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Borussia Dortmund',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
+                date: '25 de junho',
+                time: '16:00',
+                venue: 'TQL Stadium, Cincinnati',
+                stage: 'Fase de Grupos - Grupo F'
+            }
+        ]
+    },
+    'sundowns': {
+        name: 'Mamelodi Sundowns',
+        country: 'África do Sul',
+        group: 'F',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2016/11/22/Mamelodi_Sundowns_65.png',
+        confederation: 'CAF',
+        qualifiedAs: 'CAF Champions League',
+        fifaRanking: 55,
+        coach: 'Rulani Mokwena',
+        matches: [
+            {
+                opponent: 'Ulsan HD',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/05/svg.svg',
+                date: '17 de junho',
+                time: '19:00',
+                venue: 'Inter&Co Stadium, Orlando',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Borussia Dortmund',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
+                date: '21 de junho',
+                time: '13:00',
+                venue: 'TQL Stadium, Cincinnati',
+                stage: 'Fase de Grupos - Grupo F'
+            },
+            {
+                opponent: 'Fluminense',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg',
+                date: '25 de junho',
+                time: '16:00',
+                venue: 'Estádio Hard Rock, Miami',
+                stage: 'Fase de Grupos - Grupo F'
+            }
+        ]
+    },
 
-// Grupo G
-'city': {
-    name: 'Manchester City',
-    country: 'Inglaterra',
-    group: 'G',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/manchester-city.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 1,
-    coach: 'Pep Guardiola',
-    matches: [
-        {
-            opponent: 'Wydad AC',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
-            date: '18 de junho',
-            time: '13:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Al Ain',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
-            date: '22 de junho',
-            time: '21:00',
-            venue: 'Estádio Mercedes-Benz, Atlanta',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Juventus',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg',
-            date: '26 de junho',
-            time: '16:00',
-            venue: 'Estádio Camping World, Orlando',
-            stage: 'Fase de Grupos - Grupo G'
-        }
-    ]
-},
-'wydad': {
-    name: 'Wydad AC',
-    country: 'Marrocos',
-    group: 'G',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
-    confederation: 'CAF',
-    qualifiedAs: 'CAF Champions League',
-    fifaRanking: 65,
-    coach: 'Abdellatif Jrindou',
-    matches: [
-        {
-            opponent: 'Manchester City',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
-            date: '18 de junho',
-            time: '13:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Juventus',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg',
-            date: '22 de junho',
-            time: '12:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Al Ain',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
-            date: '26 de junho',
-            time: '16:00',
-            venue: 'Audi Field, Washington, D.C.',
-            stage: 'Fase de Grupos - Grupo G'
-        }
-    ]
-},
-'alain': {
-    name: 'Al Ain',
-    country: 'Emirados Árabes',
-    group: 'G',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
-    confederation: 'AFC',
-    qualifiedAs: 'AFC Champions League',
-    fifaRanking: 70,
-    coach: 'Hernán Crespo',
-    matches: [
-        {
-            opponent: 'Juventus',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg',
-            date: '18 de junho',
-            time: '22:00',
-            venue: 'Audi Field, Washington, D.C.',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Manchester City',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
-            date: '22 de junho',
-            time: '21:00',
-            venue: 'Estádio Mercedes-Benz, Atlanta',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Wydad AC',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
-            date: '26 de junho',
-            time: '16:00',
-            venue: 'Audi Field, Washington, D.C.',
-            stage: 'Fase de Grupos - Grupo G'
-        }
-    ]
-},
-'juventus': {
-    name: 'Juventus',
-    country: 'Itália',
-    group: 'G',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/juventus.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 13,
-    coach: 'Massimiliano Allegri',
-    matches: [
-        {
-            opponent: 'Al Ain',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
-            date: '18 de junho',
-            time: '22:00',
-            venue: 'Audi Field, Washington, D.C.',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Wydad AC',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
-            date: '22 de junho',
-            time: '12:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo G'
-        },
-        {
-            opponent: 'Manchester City',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
-            date: '26 de junho',
-            time: '16:00',
-            venue: 'Camping World Stadium, Orlando',
-            stage: 'Fase de Grupos - Grupo G'
-        }
-    ]
-},
+    // Grupo G
+    'city': {
+        name: 'Manchester City',
+        country: 'Inglaterra',
+        group: 'G',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/manchester-city.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 1,
+        coach: 'Pep Guardiola',
+        matches: [
+            {
+                opponent: 'Wydad AC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
+                date: '18 de junho',
+                time: '13:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Al Ain',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
+                date: '22 de junho',
+                time: '21:00',
+                venue: 'Estádio Mercedes-Benz, Atlanta',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Juventus',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg',
+                date: '26 de junho',
+                time: '16:00',
+                venue: 'Estádio Camping World, Orlando',
+                stage: 'Fase de Grupos - Grupo G'
+            }
+        ]
+    },
+    'wydad': {
+        name: 'Wydad AC',
+        country: 'Marrocos',
+        group: 'G',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
+        confederation: 'CAF',
+        qualifiedAs: 'CAF Champions League',
+        fifaRanking: 65,
+        coach: 'Abdellatif Jrindou',
+        matches: [
+            {
+                opponent: 'Manchester City',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+                date: '18 de junho',
+                time: '13:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Juventus',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg',
+                date: '22 de junho',
+                time: '12:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Al Ain',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
+                date: '26 de junho',
+                time: '16:00',
+                venue: 'Audi Field, Washington, D.C.',
+                stage: 'Fase de Grupos - Grupo G'
+            }
+        ]
+    },
+    'alain': {
+        name: 'Al Ain',
+        country: 'Emirados Árabes',
+        group: 'G',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
+        confederation: 'AFC',
+        qualifiedAs: 'AFC Champions League',
+        fifaRanking: 70,
+        coach: 'Hernán Crespo',
+        matches: [
+            {
+                opponent: 'Juventus',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg',
+                date: '18 de junho',
+                time: '22:00',
+                venue: 'Audi Field, Washington, D.C.',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Manchester City',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+                date: '22 de junho',
+                time: '21:00',
+                venue: 'Estádio Mercedes-Benz, Atlanta',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Wydad AC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
+                date: '26 de junho',
+                time: '16:00',
+                venue: 'Audi Field, Washington, D.C.',
+                stage: 'Fase de Grupos - Grupo G'
+            }
+        ]
+    },
+    'juventus': {
+        name: 'Juventus',
+        country: 'Itália',
+        group: 'G',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/juventus.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 13,
+        coach: 'Massimiliano Allegri',
+        matches: [
+            {
+                opponent: 'Al Ain',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/10/20/Al_Ain_FC_S6ZOvGV.svg',
+                date: '18 de junho',
+                time: '22:00',
+                venue: 'Audi Field, Washington, D.C.',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Wydad AC',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2017/11/28/Wydad_Casablanca_logo65px.png',
+                date: '22 de junho',
+                time: '12:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo G'
+            },
+            {
+                opponent: 'Manchester City',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+                date: '26 de junho',
+                time: '16:00',
+                venue: 'Camping World Stadium, Orlando',
+                stage: 'Fase de Grupos - Grupo G'
+            }
+        ]
+    },
 
-// Grupo H
-'realmadrid': {
-    name: 'Real Madrid',
-    country: 'Espanha',
-    group: 'H',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/real-madrid.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 2,
-    coach: 'Xabi Alonso',
-    matches: [
-        {
-            opponent: 'Al Hilal',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
-            date: '18 de junho',
-            time: '16:00',
-            venue: 'Hard Rock Stadium, Miami',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'Pachuca',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
-            date: '22 de junho',
-            time: '16:00',
-            venue: 'Bank of America Stadium, Charlotte',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'FC Salzburg',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg',
-            date: '26 de junho',
-            time: '22:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo H'
-        }
-    ]
-},
-'alhilal': {
-    name: 'Al Hilal',
-    country: 'Arábia Saudita',
-    group: 'H',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
-    confederation: 'AFC',
-    qualifiedAs: 'AFC Champions League',
-    fifaRanking: 25,
-    coach: 'Jorge Jesus',
-    matches: [
-        {
-            opponent: 'Real Madrid',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
-            date: '18 de junho',
-            time: '16:00',
-            venue: 'Hard Rock Stadium, Miami',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'FC Salzburg',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg',
-            date: '22 de junho',
-            time: '19:00',
-            venue: 'Audi Field, Washington, D.C.',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'Pachuca',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
-            date: '26 de junho',
-            time: '22:00',
-            venue: 'GEODIS Park, Nashville',
-            stage: 'Fase de Grupos - Grupo H'
-        }
-    ]
-},
-'pachuca': {
-    name: 'Pachuca',
-    country: 'México',
-    group: 'H',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
-    confederation: 'CONCACAF',
-    qualifiedAs: 'Concacaf Champions Cup',
-    fifaRanking: 32,
-    coach: 'Guillermo Almada',
-    matches: [
-        {
-            opponent: 'FC Salzburg',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg',
-            date: '18 de junho',
-            time: '19:00',
-            venue: 'TQL Stadium, Cincinnati',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'Real Madrid',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
-            date: '22 de junho',
-            time: '16:00',
-            venue: 'Bank of America Stadium, Charlotte',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'Al Hilal',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
-            date: '26 de junho',
-            time: '22:00',
-            venue: 'GEODIS Park, Nashville',
-            stage: 'Fase de Grupos - Grupo H'
-        }
-    ]
-},
-'salzburg': {
-    name: 'Red Bull Salzburg',
-    country: 'Áustria',
-    group: 'H',
-    logoUrl: 'https://s.sde.globo.com/media/organizations/2023/09/20/RB_Salzburg_copy.svg',
-    confederation: 'UEFA',
-    qualifiedAs: 'Classificação UEFA',
-    fifaRanking: 22,
-    coach: 'Gerhard Struber',
-    matches: [
-        {
-            opponent: 'Pachuca',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
-            date: '18 de junho',
-            time: '19:00',
-            venue: 'TQL Stadium, Cincinnati',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'Al Hilal',
-            opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
-            date: '22 de junho',
-            time: '19:00',
-            venue: 'Audi Field, Washington, D.C.',
-            stage: 'Fase de Grupos - Grupo H'
-        },
-        {
-            opponent: 'Real Madrid',
-            opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
-            date: '26 de junho',
-            time: '22:00',
-            venue: 'Lincoln Financial Field, Filadélfia',
-            stage: 'Fase de Grupos - Grupo H'
-        }
-    ]
-}   
+    // Grupo H
+    'realmadrid': {
+        name: 'Real Madrid',
+        country: 'Espanha',
+        group: 'H',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2018/03/11/real-madrid.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 2,
+        coach: 'Xabi Alonso',
+        matches: [
+            {
+                opponent: 'Al Hilal',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
+                date: '18 de junho',
+                time: '16:00',
+                venue: 'Hard Rock Stadium, Miami',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'Pachuca',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
+                date: '22 de junho',
+                time: '16:00',
+                venue: 'Bank of America Stadium, Charlotte',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'FC Salzburg',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg',
+                date: '26 de junho',
+                time: '22:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo H'
+            }
+        ]
+    },
+    'alhilal': {
+        name: 'Al Hilal',
+        country: 'Arábia Saudita',
+        group: 'H',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
+        confederation: 'AFC',
+        qualifiedAs: 'AFC Champions League',
+        fifaRanking: 25,
+        coach: 'Jorge Jesus',
+        matches: [
+            {
+                opponent: 'Real Madrid',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+                date: '18 de junho',
+                time: '16:00',
+                venue: 'Hard Rock Stadium, Miami',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'FC Salzburg',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg',
+                date: '22 de junho',
+                time: '19:00',
+                venue: 'Audi Field, Washington, D.C.',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'Pachuca',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
+                date: '26 de junho',
+                time: '22:00',
+                venue: 'GEODIS Park, Nashville',
+                stage: 'Fase de Grupos - Grupo H'
+            }
+        ]
+    },
+    'pachuca': {
+        name: 'Pachuca',
+        country: 'México',
+        group: 'H',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
+        confederation: 'CONCACAF',
+        qualifiedAs: 'Concacaf Champions Cup',
+        fifaRanking: 32,
+        coach: 'Guillermo Almada',
+        matches: [
+            {
+                opponent: 'FC Salzburg',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/7/77/FC_Red_Bull_Salzburg_logo.svg',
+                date: '18 de junho',
+                time: '19:00',
+                venue: 'TQL Stadium, Cincinnati',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'Real Madrid',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+                date: '22 de junho',
+                time: '16:00',
+                venue: 'Bank of America Stadium, Charlotte',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'Al Hilal',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
+                date: '26 de junho',
+                time: '22:00',
+                venue: 'GEODIS Park, Nashville',
+                stage: 'Fase de Grupos - Grupo H'
+            }
+        ]
+    },
+    'salzburg': {
+        name: 'Red Bull Salzburg',
+        country: 'Áustria',
+        group: 'H',
+        logoUrl: 'https://s.sde.globo.com/media/organizations/2023/09/20/RB_Salzburg_copy.svg',
+        confederation: 'UEFA',
+        qualifiedAs: 'Classificação UEFA',
+        fifaRanking: 22,
+        coach: 'Gerhard Struber',
+        matches: [
+            {
+                opponent: 'Pachuca',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2024/12/11/pachuca-logo.svg',
+                date: '18 de junho',
+                time: '19:00',
+                venue: 'TQL Stadium, Cincinnati',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'Al Hilal',
+                opponentLogo: 'https://s.sde.globo.com/media/organizations/2023/02/07/al_hilal_defesa.svg',
+                date: '22 de junho',
+                time: '19:00',
+                venue: 'Audi Field, Washington, D.C.',
+                stage: 'Fase de Grupos - Grupo H'
+            },
+            {
+                opponent: 'Real Madrid',
+                opponentLogo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+                date: '26 de junho',
+                time: '22:00',
+                venue: 'Lincoln Financial Field, Filadélfia',
+                stage: 'Fase de Grupos - Grupo H'
+            }
+        ]
+    }
 };
 
 
@@ -1181,12 +1181,12 @@ function showScreen(screenId) {
 
         if (firstLoad && showAd) {
 
-             setTimeout(() => {
+            setTimeout(() => {
                 AndroidInterface.onCustomFunctionCalled("");
                 showAd = false;
             }, 3000);
             // Exibe o anúncio após 3 segundos
-            console.log("Anúncio exibido após 3 segundos.");    
+            console.log("Anúncio exibido após 3 segundos.");
         }
 
         firstLoad = true;
@@ -1215,8 +1215,6 @@ function showScreen(screenId) {
 
         // Rola para o topo
         window.scrollTo(0, 0);
-
-        console.log("Este bloco será executado sempre.");
     }
 }
 
@@ -1353,9 +1351,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Adiciona a classe active na aba clicada
             this.classList.add('active');
+            const tabKey = this.getAttribute('data-i18n');
+            const contentIds = [
+                'round-of-16-content',
+                'quarter-finals-content',
+                'semi-finals-content',
+                'final-content',
+                'group-stage-content'
+            ];
 
-            // Aqui você adicionaria a lógica para mostrar os conteúdos correspondentes
-            // Por exemplo, filtrar partidas pelo estágio selecionado
+            // Esconde todos os blocos de conteúdo
+            contentIds.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.display = 'none';
+            });
+
+            // Exibe apenas o bloco correspondente à aba clicada
+            const selectedContent = document.getElementById(`${tabKey.replace(/_/g, '-')}-content`);
+            if (selectedContent) selectedContent.style.display = 'block';
         });
     });
 
