@@ -1156,7 +1156,7 @@
                             </div>
                         </div>
 
-                        
+
                         <!-- Banner da Amazon -->
                         <div class="amazon-banner">
                             <h3>🔥 Ofertas do Dia na Amazon!</h3>
@@ -1652,15 +1652,25 @@
                     <div class="results-content">
                         <div class="tournament-message">
                             <h3 data-i18n="completed_matches">Partidas Concluídas</h3>
-                            <p>Os resultados estarão disponíveis após a realização das
-                                partidas.</p>
+                            <p>Os resultados estarão disponíveis após o final das partidas.
+                                Somente as partidas dos ultimos 3 dias serão exibidas.</p>
                         </div>
-                        <!-- Lista de jogos será inserida aqui -->
                     </div>
 
 
                     <script>
-                        const API_URL = 'https://ifpvnmlolylqmeqfzaal.supabase.co/rest/v1/matches?select=*&order=date.asc,time_et.asc';
+
+                        // Obter data atual - 3 dias
+                        const dataHoje = new Date();
+                        dataHoje.setDate(dataHoje.getDate() - 3);
+
+                        // Formatar para AAAA-MM-DD
+                        const ano = dataHoje.getFullYear();
+                        const mes = String(dataHoje.getMonth() + 1).padStart(2, '0');
+                        const dia = String(dataHoje.getDate()).padStart(2, '0');
+                        const dataFormatada = `${ano}-${mes}-${dia}`;
+
+                        const API_URL = 'https://ifpvnmlolylqmeqfzaal.supabase.co/rest/v1/matches?select=*&order=date.asc,time_et.asc&date=gt.' + dataFormatada;
 
 
                         function getTeamName(id) {
@@ -1671,6 +1681,11 @@
                             return TEAM_LOGOS[id] || '';
                         }
 
+                        function formatarData(dataStr) {
+                            const partes = dataStr.split('-');
+                            return `${partes[2]}/${partes[1]}/${partes[0]}`;
+                        }
+
                         function createMatchHTML(match) {
                             const group = match.group_name ? `Grupo ${match.group_name}` : '';
                             const homeName = getTeamName(match.home_team_id);
@@ -1678,7 +1693,7 @@
                             const homeLogo = getTeamLogo(match.home_team_id);
                             const awayLogo = getTeamLogo(match.away_team_id);
                             const placar = `${match.home_score} x ${match.away_score}`;
-                            const data = match.date_formatted || match.date;
+                            const data = formatarData(match.date);
                             const estadio = `${match.venue}, ${match.city}`;
 
                             return `
