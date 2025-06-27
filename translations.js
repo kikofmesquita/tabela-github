@@ -2,7 +2,7 @@
 const translations = {
     'en': {
         // Geral
-        'app_title': 'FIFA Club World Cup 2025',
+        'app_title': 'Club World Cup 2025',
         'tournament_info': 'Tournament Information',
         'dates': 'Dates: June 14 - July 13, 2025',
         'location': 'Location: United States',
@@ -19,7 +19,7 @@ const translations = {
 
         // Grupos
         'tournament_format': 'Tournament Format',
-        'format_description': 'The 2025 FIFA Club World Cup features 32 teams competing in a group stage followed by knockout rounds. Teams are divided into eight groups (A-H) of four teams each. The top two teams from each group advance to the round of 16, followed by quarterfinals, semifinals and the final to determine the world champion.',
+        'format_description': 'The 2025 Club World Cup features 32 teams competing in a group stage followed by knockout rounds. Teams are divided into eight groups (A-H) of four teams each. The top two teams from each group advance to the round of 16, followed by quarterfinals, semifinals and the final to determine the world champion.',
         'group': 'Group',
         
         // Tabela de Grupos
@@ -47,7 +47,7 @@ const translations = {
         'team_information': 'Team Information',
         'confederation': 'Confederation',
         'qualified_as': 'Qualified As',
-        'fifa_ranking': 'FIFA Ranking',
+        'fifa_ranking': 'Ranking',
         'coach': 'Coach',
         'matches': 'Matches',
         
@@ -61,7 +61,7 @@ const translations = {
     },
     'pt': {
         // Geral
-        'app_title': 'Copa do Mundo de Clubes FIFA 2025',
+        'app_title': 'Copa do Mundo de Clubes 2025',
         'tournament_info': 'Informações do Torneio',
         'dates': 'Datas: 14 de junho - 13 de julho, 2025',
         'location': 'Local: Estados Unidos',
@@ -79,7 +79,7 @@ const translations = {
 
         // Grupos
         'tournament_format': 'Formato do Torneio',
-        'format_description': 'A Copa do Mundo de Clubes FIFA 2025 conta com 32 equipes competindo em uma fase de grupos seguida por fases eliminatórias. As equipes são divididas em oito grupos (A-H) de quatro equipes cada. As duas melhores equipes de cada grupo avançam para as oitavas de final, seguidas por quartas de final, semifinais e a final para determinar o campeão mundial.',
+        'format_description': 'A Copa do Mundo de Clubes 2025 conta com 32 equipes competindo em uma fase de grupos seguida por fases eliminatórias. As equipes são divididas em oito grupos (A-H) de quatro equipes cada. As duas melhores equipes de cada grupo avançam para as oitavas de final, seguidas por quartas de final, semifinais e a final para determinar o campeão mundial.',
         'group': 'Grupo',
         
         // Tabela de Grupos
@@ -107,7 +107,7 @@ const translations = {
         'team_information': 'Informações do Time',
         'confederation': 'Confederação',
         'qualified_as': 'Qualificou-se Como',
-        'fifa_ranking': 'Ranking FIFA',
+        'fifa_ranking': 'Ranking',
         'coach': 'Treinador',
         'matches': 'Partidas',
         
@@ -121,7 +121,7 @@ const translations = {
     },
     'es': {
         // Geral
-        'app_title': 'Copa Mundial de Clubes FIFA 2025',
+        'app_title': 'Copa Mundial de Clubes 2025',
         'tournament_info': 'Información del Torneo',
         'dates': 'Fechas: 14 de junio - 13 de julio, 2025',
         'location': 'Ubicación: Estados Unidos',
@@ -138,7 +138,7 @@ const translations = {
 
         // Grupos
         'tournament_format': 'Formato del Torneo',
-        'format_description': 'La Copa Mundial de Clubes FIFA 2025 cuenta con 32 equipos compitiendo en una fase de grupos seguida por fases eliminatorias. Los equipos se dividen en ocho grupos (A-H) de cuatro equipos cada uno. Los dos mejores equipos de cada grupo avanzan a octavos de final, seguidos por cuartos de final, semifinales y la final para determinar el campeón mundial.',
+        'format_description': 'La Copa Mundial de Clubes 2025 cuenta con 32 equipos compitiendo en una fase de grupos seguida por fases eliminatorias. Los equipos se dividen en ocho grupos (A-H) de cuatro equipos cada uno. Los dos mejores equipos de cada grupo avanzan a octavos de final, seguidos por cuartos de final, semifinales y la final para determinar el campeón mundial.',
         'group': 'Grupo',
         
         // Tabela de Grupos
@@ -166,7 +166,7 @@ const translations = {
         'team_information': 'Información del Equipo',
         'confederation': 'Confederación',
         'qualified_as': 'Clasificado Como',
-        'fifa_ranking': 'Ranking FIFA',
+        'fifa_ranking': 'Ranking',
         'coach': 'Entrenador',
         'matches': 'Partidos',
         
