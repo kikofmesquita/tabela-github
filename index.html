@@ -1140,7 +1140,7 @@
                     }
 
                     function createMatchHTML(match) {
-                        const group = match.group_name ? `Grupo ${match.group_name}` : '';
+                        const group = match.group_name ? `${match.group_name}` : '';
                         const homeName = getTeamName(match.home_team_id);
                         const awayName = getTeamName(match.away_team_id);
                         const homeLogo = getTeamLogo(match.home_team_id);
