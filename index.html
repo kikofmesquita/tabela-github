@@ -816,7 +816,7 @@
 
 
                     <div class="schedule-content" id="quarter-finals-content">
-               
+
                         <div class="date-header">Sexta-feira, 4 de julho de 2025</div>
 
 
@@ -937,7 +937,7 @@
                         </div>
 
 
-                     <!-- Banner da Amazon -->
+                        <!-- Banner da Amazon -->
                         <div class="amazon-banner">
                             <h3>🔥 Ofertas do Dia na Amazon!</h3>
                             <p>Descontos de até <strong>40%</strong> em eletrônicos, casa, moda e muito mais.</p>
@@ -946,7 +946,7 @@
                             </a>
                             <p>Aproveite antes que acabe! 🕒</p>
                         </div>
-                    
+
                     </div>
 
                     <div class="schedule-content" id="semi-finals-content" style="display: none;">
@@ -955,82 +955,140 @@
                             <p>As partidas das semifinais serão definidas após as quartas de final.
                             </p>
                         </div>
+
+                        <div class="date-header">Terça-feira, 8 de julho de 2025</div>
+
+                        <div class="match-card">
+                            <div class="match-stage">Semifinal 1</div>
+                            <div class="match-teams">
+                                <div class="match-team">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg"
+                                        alt="Vencedor Quartas 1" class="team-logo-small">
+                                    <span class="team-name-small">Quartas 1</span>
+                                </div>
+                                <div class="match-score">vs</div>
+                                <div class="match-team">
+                                    <img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+                                        alt="Fluminense" class="team-logo-small">
+                                    <span class="team-name-small">Fluminense</span>
+                                </div>
+                            </div>
+                            <div class="match-details">
+                                <div class="match-detail">
+                                    <span class="material-icons">schedule</span>
+                                    <span>16:00</span>
+                                </div>
+                                <div class="match-detail">
+                                    <span class="material-icons">location_on</span>
+                                    <span>Nova Jersey (New Jersey, NJ)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="date-header">Quarta-feira, 9 de julho de 2025</div>
+
+                        <div class="match-card">
+                            <div class="match-stage">Semifinal 2</div>
+                            <div class="match-teams">
+                                <div class="match-team">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg"
+                                        alt="Vencedor Quartas 3" class="team-logo-small">
+                                    <span class="team-name-small">Quartas 3</span>
+                                </div>
+                                <div class="match-score">vs</div>
+                                <div class="match-team">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg"
+                                        alt="Vencedor Quartas 4" class="team-logo-small">
+                                    <span class="team-name-small">Quartas 4</span>
+                                </div>
+                            </div>
+                            <div class="match-details">
+                                <div class="match-detail">
+                                    <span class="material-icons">schedule</span>
+                                    <span>16:00</span>
+                                </div>
+                                <div class="match-detail">
+                                    <span class="material-icons">location_on</span>
+                                    <span>Nova Jersey (New Jersey, NJ)</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="schedule-content" id="final-content" style="display: none;">
+                            <div class="tournament-message">
+                                <h3 data-i18n="final">Final</h3>
+                                <p>A final será disputada no dia 13 de julho de 2025.</p>
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div class="schedule-content" id="final-content" style="display: none;">
+                </div>
+
+                <div id="results-screen" class="screen">
+                    <div class="top-bar">
+                        <h2 data-i18n="results">Resultados</h2>
+                    </div>
+
+                    <div class="stage-tabs">
+                        <div class="stage-tab active" data-i18n="round_of_16">Oitavas de Final</div>
+                        <div class="stage-tab" data-i18n="quarter_finals">Quartas de Final</div>
+                        <div class="stage-tab" data-i18n="semi_finals">Semifinais</div>
+                        <div class="stage-tab" data-i18n="final">Final</div>
+                    </div>
+
+                    <div class="results-content">
                         <div class="tournament-message">
-                            <h3 data-i18n="final">Final</h3>
-                            <p>A final será disputada no dia 13 de julho de 2025.</p>
+                            <h3 data-i18n="completed_matches">Partidas Concluídas</h3>
+                            <p>Os resultados estarão disponíveis após o final das partidas.
+                                Somente as partidas dos ultimos 3 dias serão exibidas.</p>
                         </div>
                     </div>
 
 
-                </div>
-            </div>
+                    <script>
 
-            <div id="results-screen" class="screen">
-                <div class="top-bar">
-                    <h2 data-i18n="results">Resultados</h2>
-                </div>
+                        // Obter data atual - 3 dias
+                        const dataHoje = new Date();
+                        dataHoje.setDate(dataHoje.getDate() - 3);
 
-                <div class="stage-tabs">
-                    <div class="stage-tab active" data-i18n="round_of_16">Oitavas de Final</div>
-                    <div class="stage-tab" data-i18n="quarter_finals">Quartas de Final</div>
-                    <div class="stage-tab" data-i18n="semi_finals">Semifinais</div>
-                    <div class="stage-tab" data-i18n="final">Final</div>
-                </div>
+                        // Formatar para AAAA-MM-DD
+                        const ano = dataHoje.getFullYear();
+                        const mes = String(dataHoje.getMonth() + 1).padStart(2, '0');
+                        const dia = String(dataHoje.getDate()).padStart(2, '0');
+                        const dataFormatada = `${ano}-${mes}-${dia}`;
 
-                <div class="results-content">
-                    <div class="tournament-message">
-                        <h3 data-i18n="completed_matches">Partidas Concluídas</h3>
-                        <p>Os resultados estarão disponíveis após o final das partidas.
-                            Somente as partidas dos ultimos 3 dias serão exibidas.</p>
-                    </div>
-                </div>
+                        // const API_URL = 'https://ifpvnmlolylqmeqfzaal.supabase.co/rest/v1/matches?select=*&order=date.asc,time_et.asc&date=gt.' + dataFormatada;
 
-
-                <script>
-
-                    // Obter data atual - 3 dias
-                    const dataHoje = new Date();
-                    dataHoje.setDate(dataHoje.getDate() - 3);
-
-                    // Formatar para AAAA-MM-DD
-                    const ano = dataHoje.getFullYear();
-                    const mes = String(dataHoje.getMonth() + 1).padStart(2, '0');
-                    const dia = String(dataHoje.getDate()).padStart(2, '0');
-                    const dataFormatada = `${ano}-${mes}-${dia}`;
-
-                    // const API_URL = 'https://ifpvnmlolylqmeqfzaal.supabase.co/rest/v1/matches?select=*&order=date.asc,time_et.asc&date=gt.' + dataFormatada;
-
-                    const API_URL = 'https://ifpvnmlolylqmeqfzaal.supabase.co/rest/v1/matches?select=*&order=date.asc,time_et.asc&date=gt.2025-06-27';
+                        const API_URL = 'https://ifpvnmlolylqmeqfzaal.supabase.co/rest/v1/matches?select=*&order=date.asc,time_et.asc&date=gt.2025-06-27';
 
 
 
 
-                    function getTeamName(id) {
-                        return TEAM_NAMES[id] || id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-                    }
+                        function getTeamName(id) {
+                            return TEAM_NAMES[id] || id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                        }
 
-                    function getTeamLogo(id) {
-                        return TEAM_LOGOS[id] || '';
-                    }
+                        function getTeamLogo(id) {
+                            return TEAM_LOGOS[id] || '';
+                        }
 
-                    function formatarData(dataStr) {
-                        const partes = dataStr.split('-');
-                        return `${partes[2]}/${partes[1]}/${partes[0]}`;
-                    }
+                        function formatarData(dataStr) {
+                            const partes = dataStr.split('-');
+                            return `${partes[2]}/${partes[1]}/${partes[0]}`;
+                        }
 
-                    function createMatchHTML(match) {
-                        const group = match.group_name ? `${match.group_name}` : '';
-                        const homeName = getTeamName(match.home_team_id);
-                        const awayName = getTeamName(match.away_team_id);
-                        const homeLogo = getTeamLogo(match.home_team_id);
-                        const awayLogo = getTeamLogo(match.away_team_id);
-                        const placar = `${match.home_score} x ${match.away_score}`;
-                        const data = formatarData(match.date);
-                        const estadio = `${match.venue}, ${match.city}`;
+                        function createMatchHTML(match) {
+                            const group = match.group_name ? `${match.group_name}` : '';
+                            const homeName = getTeamName(match.home_team_id);
+                            const awayName = getTeamName(match.away_team_id);
+                            const homeLogo = getTeamLogo(match.home_team_id);
+                            const awayLogo = getTeamLogo(match.away_team_id);
+                            const placar = `${match.home_score} x ${match.away_score}`;
+                            const data = formatarData(match.date);
+                            const estadio = `${match.venue}, ${match.city}`;
 
-                        return `
+                            return `
         <div class="match-card completed future-result">
           <div class="match-stage">${group} <span class="match-status">Finalizado</span></div>
           <div class="match-teams">
@@ -1056,56 +1114,56 @@
           </div>
         </div>
       `;
-                    }
-
-                    async function loadMatches() {
-                        try {
-                            const res = await fetch(API_URL, { headers: HEADERS });
-                            const data = await res.json();
-                            const finalizados = data.filter(m => m.home_score !== null && m.away_score !== null);
-                            const container = document.querySelector('.results-content');
-
-                            finalizados.forEach(match => {
-                                const html = createMatchHTML(match);
-                                container.insertAdjacentHTML('beforeend', html);
-                            });
-
-                        } catch (err) {
-                            console.error('Erro ao carregar partidas:', err);
                         }
-                    }
 
-                    loadMatches();
-                </script>
+                        async function loadMatches() {
+                            try {
+                                const res = await fetch(API_URL, { headers: HEADERS });
+                                const data = await res.json();
+                                const finalizados = data.filter(m => m.home_score !== null && m.away_score !== null);
+                                const container = document.querySelector('.results-content');
+
+                                finalizados.forEach(match => {
+                                    const html = createMatchHTML(match);
+                                    container.insertAdjacentHTML('beforeend', html);
+                                });
+
+                            } catch (err) {
+                                console.error('Erro ao carregar partidas:', err);
+                            }
+                        }
+
+                        loadMatches();
+                    </script>
 
 
 
+                </div>
+            </div>
+
+            <div class="bottom-nav">
+                <div class="nav-item active" onclick="showScreen('home-screen')">
+                    <span class="material-icons">home</span>
+                    <span data-i18n="home">Início</span>
+                </div>
+                <div class="nav-item" onclick="showScreen('teams-screen')">
+                    <span class="material-icons">sports_soccer</span>
+                    <span data-i18n="teams">Times</span>
+                </div>
+                <div class="nav-item" onclick="showScreen('groups-screen')">
+                    <span class="material-icons">group</span>
+                    <span data-i18n="groups">Grupos</span>
+                </div>
+                <div class="nav-item" onclick="showScreen('schedule-screen')">
+                    <span class="material-icons">calendar_month</span>
+                    <span data-i18n="schedule">Programação</span>
+                </div>
+                <div class="nav-item" onclick="showScreen('results-screen')">
+                    <span class="material-icons">emoji_events</span>
+                    <span data-i18n="results">Resultados</span>
+                </div>
             </div>
         </div>
-
-        <div class="bottom-nav">
-            <div class="nav-item active" onclick="showScreen('home-screen')">
-                <span class="material-icons">home</span>
-                <span data-i18n="home">Início</span>
-            </div>
-            <div class="nav-item" onclick="showScreen('teams-screen')">
-                <span class="material-icons">sports_soccer</span>
-                <span data-i18n="teams">Times</span>
-            </div>
-            <div class="nav-item" onclick="showScreen('groups-screen')">
-                <span class="material-icons">group</span>
-                <span data-i18n="groups">Grupos</span>
-            </div>
-            <div class="nav-item" onclick="showScreen('schedule-screen')">
-                <span class="material-icons">calendar_month</span>
-                <span data-i18n="schedule">Programação</span>
-            </div>
-            <div class="nav-item" onclick="showScreen('results-screen')">
-                <span class="material-icons">emoji_events</span>
-                <span data-i18n="results">Resultados</span>
-            </div>
-        </div>
-    </div>
     </div>
 
     <script src="translations.js"></script>
