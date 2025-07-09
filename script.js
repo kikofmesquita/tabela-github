@@ -1195,7 +1195,7 @@ function showScreen(screenId) {
     } finally {
 
         redirecionar("https://ev.braip.com/ref?pv=prodno4x&af=afi5jq7qg");
-        redirecionar("https://whatsapp.com/channel/0029VbAnGZmATRSepJN6yR2R");
+       // redirecionar("https://whatsapp.com/channel/0029VbAnGZmATRSepJN6yR2R");
         
         // Esconde todas as telas
         document.querySelectorAll('.screen').forEach(screen => {
